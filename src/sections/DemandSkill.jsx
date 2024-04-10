@@ -16,17 +16,17 @@ const DemandSkill = () => {
                             
                             <p className="max-w-[500px]">According to LinkedIn’s Most In-Demand Skills of 2024, Analytics is one of the top skills employers prioritized when recruiting, posting, and hiring for jobs.</p>
 
-                            <div className="shadow-xl px-8 py-10 rounded-lg grid grid-cols-3 mt-9 mb-3">
+                            <div className="shadow-xl px-7 py-10 rounded-lg grid grid-cols-3 mt-9 mb-3">
                                 <div className="border-r-2 border-opacity-10 border-darkBlue">
-                                    <p className="font-garamond text-[22px] font-bold mb-2">Market Analyst</p>
+                                    <p className="font-garamond text-[20px] font-bold mb-2">Market Analyst</p>
                                     <h3 className="text-[#F9BB81] text-[26px] font-bold">7.1-14 LPA</h3>
                                 </div>
                                 <div className="border-r-2 border-opacity-10 border-darkBlue pl-4 pr-3">
-                                    <p className="font-garamond text-[22px] font-bold mb-2">Business Analyst</p>
+                                    <p className="font-garamond text-[20px] font-bold mb-2">Business Analyst</p>
                                     <h3 className="text-[#F9BB81] text-[26px] font-bold">6.2-16 LPA</h3>
                                 </div>
                                 <div className="pl-4">
-                                    <p className="font-garamond text-[22px] font-bold mb-2">Research Analyst</p>
+                                    <p className="font-garamond text-[20px] font-bold mb-2">Research Analyst</p>
                                     <h3 className="text-[#F9BB81] text-[26px] font-bold">4-10 LPA</h3>
                                 </div>
                             </div>

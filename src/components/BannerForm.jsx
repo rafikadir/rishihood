@@ -15,8 +15,8 @@ const BannerForm = () => {
   const onSubmit = (data) => console.log(data)
 
   return (
-      <div className="p-3 bg-white bg-opacity-20 rounded-lg max-w-[500px]">
-        <form onSubmit={handleSubmit(onSubmit)} className="rounded-lg py-12 pr-12 pl-14 bg-gradient-to-r from-blue-700 to-blue-400 bg-darkBlue">
+      <div className="p-3 bg-white bg-opacity-20 rounded-[18px] max-w-[500px]">
+        <form onSubmit={handleSubmit(onSubmit)} className="rounded-[20px] py-12 pr-12 pl-14 bg-gradient-to-r from-blue-700 to-blue-400 bg-darkBlue">
           <div className="flex flex-col mb-8">
             <div className="flex items-center -ml-7">
               <LiaUserEditSolid className="text-white text-[20px]"/>

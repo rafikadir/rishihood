@@ -4,7 +4,7 @@ import Button from "../components/Button";
 const Placement = () => {
     return (
         <section>
-            <div className="container mx-auto">
+            <div className="container mx-auto lg:px-10">
                 <div className="grid grid-cols-2 items-center">
                     <div>
                         <img src={img} alt="placement" />

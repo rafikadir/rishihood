@@ -15,7 +15,7 @@ import {faCircleCheck} from "@fortawesome/free-solid-svg-icons";
 const Program = () => {
     return (
         <section className="py-[70px]">
-            <div className="container mx-auto">
+            <div className="container mx-auto lg:px-10">
                 <div className="grid grid-cols-2">
                     <div>
                         <img src={program1} alt="program" />
@@ -26,13 +26,13 @@ const Program = () => {
 
                         <div className="shadow-lg p-5 rounded-lg mb-4">
                             <div className="flex mb-2">
-                                <div className="pr-5 border-r w-2/4">
-                                    <h3 className="font-garamond text-[24px] font-bold">
+                                <div className="pr-3 border-r w-2/4">
+                                    <h3 className="font-garamond text-[22px] font-bold">
                                         <FontAwesomeIcon icon={faCircleCheck}  className="mr-2 text-darkBlue w-4"/>
                                         International Exposure
                                     </h3>
                                 </div>
-                                <div className="pl-5 flex w-2/4">
+                                <div className="pl-4 grid w-2/4">
                                     <img src={unitar} alt="unitar" />
                                 </div>
                             </div>
@@ -42,8 +42,8 @@ const Program = () => {
 
                         <div className="shadow-lg p-5 rounded-lg mb-4">
                             <div className="flex mb-2">
-                                <div className="pr-5 border-r w-2/4">
-                                    <h3 className="font-garamond text-[24px] font-bold">
+                                <div className="pr-4 border-r w-2/4">
+                                    <h3 className="font-garamond text-[22px] font-bold">
                                         <FontAwesomeIcon icon={faCircleCheck} className="mr-2 text-[#DB541B] w-4"/>
                                         Expert-Led Learning
                                     </h3>

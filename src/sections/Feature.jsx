@@ -5,7 +5,7 @@ import Button from "../components/Button";
 const Feature = () => {
     return (
         <section className="bg-darkBlue">
-            <div className="container mx-auto">
+            <div className="container mx-auto lg:px-10">
                 <div className="grid grid-cols-2 py-[70px]">
                     <div>
                         <img src={feature1} alt="features" />

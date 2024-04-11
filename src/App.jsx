@@ -2,6 +2,7 @@ import Banner from "./sections/Banner";
 import CourseInfo from "./sections/CourseInfo";
 import DemandSkill from "./sections/DemandSkill";
 import Feature from "./sections/Feature";
+import Mentor from "./sections/Mentor";
 import Models from "./sections/Models";
 import Placement from "./sections/Placement";
 import Program from "./sections/Program";
@@ -19,6 +20,7 @@ function App() {
       <Models/>
       <Program/>
       <Placement/>
+      <Mentor/>
     </>
   )
 }

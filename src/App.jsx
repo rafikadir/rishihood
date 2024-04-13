@@ -3,8 +3,11 @@ import CourseInfo from "./sections/CourseInfo";
 import DemandSkill from "./sections/DemandSkill";
 import Faculty from "./sections/Faculty";
 import Feature from "./sections/Feature";
+import Feedback from "./sections/Feedback";
+import Location from "./sections/Location";
 import Mentor from "./sections/Mentor";
 import Models from "./sections/Models";
+import Network from "./sections/Network";
 import Placement from "./sections/Placement";
 import Program from "./sections/Program";
 import Navbar from "./shared/Navbar";
@@ -23,6 +26,9 @@ function App() {
       <Placement/>
       <Mentor/>
       <Faculty/>
+      <Feedback/>
+      <Location/>
+      <Network/>
     </>
   )
 }

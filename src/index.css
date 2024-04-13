@@ -17,3 +17,58 @@ body {
     line-height: 40px;
     font-weight: 700;
 }
+
+
+.marquee-container {
+    display: flex;
+    --gap: 2.5rem;
+    overflow: hidden;
+    gap: var(--gap);
+}
+
+.marquee-box {
+    flex-shrink: 0;
+    display: flex;
+    gap: var(--gap);
+    justify-content: space-around;
+    align-items: center;
+    animation: scroll 25s linear infinite;
+    min-width: 100%;
+}
+
+.marquee-box2 {
+    flex-shrink: 0;
+    display: flex;
+    gap: var(--gap);
+    justify-content: space-around;
+    align-items: center;
+    animation: scroll-reverse 25s linear infinite;
+    min-width: 100%;
+}
+
+.marquee-box span {
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 15px 0 10px;
+    font-family: "varuna", sans-serif;
+}
+
+@keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+}
+
+
+@keyframes scroll-reverse {
+    from {
+        transform: translateX(calc(-100% - var(--gap)));
+      }
+    to {
+    transform: translateX(0);
+    }
+}

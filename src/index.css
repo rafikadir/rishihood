@@ -42,7 +42,7 @@ body {
     gap: var(--gap);
     justify-content: space-around;
     align-items: center;
-    animation: scroll-reverse 25s linear infinite;
+    animation: scroll-reverse 30s linear infinite;
     min-width: 100%;
 }
 

@@ -9,10 +9,10 @@ const Banner = () => {
     return (
         <section className="bg-cover" style={{backgroundImage: `url(${banner})`}}>
             <div className='container mx-auto py-[100px] lg:px-8'>
-                <div className='grid grid-cols-2'>
-                    <div>
-                        <h2 className="font-garamond text-[44px] text-white leading-[50px] mb-8 max-w-[540px]">
-                            Bachelor’s Program in Business Analytics in Association with KPMG in India
+                <div className='grid grid-cols-5 items-center'>
+                    <div className='col-span-3'>
+                        <h2 className="font-garamond text-[44px] text-white leading-[50px] mb-8">
+                            Bachelor’s Program in Business <br/> Analytics in Association <br/> with KPMG in India
                         </h2>
 
                         <ul className='text-white mb-8'>
@@ -43,7 +43,7 @@ const Banner = () => {
                         <img src={bannerLogo} className='max-w-[380px]' alt="banner logo" />
                     </div>
 
-                    <div className='ml-auto'>
+                    <div className='col-span-2'>
                         <BannerForm/>
                     </div>
                 </div>

@@ -4,7 +4,6 @@ import location3 from "../assets/location/3.png";
 import location4 from "../assets/location/4.png";
 import { LuMapPin } from "react-icons/lu";
 
-
 const Location = () => {
     return (
         <section className="py-[70px]">

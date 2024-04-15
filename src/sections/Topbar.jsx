@@ -16,7 +16,7 @@ const Topbar = () => {
         <section className={`bg-darkBlue py-2 relative ${display ? "" : "hidden"}`}>
             <p className="text-white font-garamond flex items-center justify-center">
                 <TfiWorld className="mr-2"/>
-                Explore Our Global Programme
+                Admissions Open for 2024 Intake
             </p>
 
             <button onClick={()=> hideBar()} className="absolute right-3 top-3 text-[20px] text-white rotate-45">

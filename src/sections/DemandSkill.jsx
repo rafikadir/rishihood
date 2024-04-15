@@ -14,7 +14,7 @@ const DemandSkill = () => {
                         <div>
                             <h2 className="font-garamond text-black text-[50px] font-bold mb-9">The 2024 Most In-Demand Skill For Top Career!!</h2>
                             
-                            <p className="max-w-[500px]">According to LinkedIn’s Most In-Demand Skills of 2024, Analytics is one of the top skills employers prioritized when recruiting, posting, and hiring for jobs.</p>
+                            <p className="max-w-[500px] leading-[35px]">According to LinkedIn’s Most In-Demand Skills of 2024, Analytics is one of the top skills employers prioritized when recruiting, posting, and hiring for jobs.</p>
 
                             <div className="shadow-xl px-7 py-10 rounded-lg grid grid-cols-3 mt-9 mb-3">
                                 <div className="border-r-2 border-opacity-10 border-darkBlue">

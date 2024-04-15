@@ -8,9 +8,9 @@ body {
 
 .swiper-button-prev:after,
 .swiper-button-next:after {
-    color: #667080;
+    color: #000000;
     font-size: 15px;
-    background: white;
+    background: rgb(255, 255, 255, .4);
     width: 40px;
     height: 40px;
     text-align: center;
@@ -52,6 +52,22 @@ body {
     letter-spacing: 1px;
     margin: 15px 0 10px;
     font-family: "varuna", sans-serif;
+}
+
+/* Curriculum CSS */
+.react-tabs__tab {
+    bottom: inherit;
+    width: 100%;
+    padding: 0;
+}
+.react-tabs__tab.react-tabs__tab--selected {
+    background: #005498;
+    border: inherit;
+    /* border-bottom: 1px solid #7A7A7A; */
+    border-radius: 0;
+}
+.react-tabs__tab.react-tabs__tab--selected::after {
+    display: none;
 }
 
 @keyframes scroll {

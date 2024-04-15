@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       fontFamily: {
         garamond: ['"Garamond"', "sans-serif"],
+        inter: ['"inter"', "sans-serif"],
       },
     },
   },

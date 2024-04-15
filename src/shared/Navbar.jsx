@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react';
 import {
   Bars3Icon,
@@ -24,11 +24,25 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      if (scrollTop > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white">
+    <header className={`bg-white ${isScrolled ? 'fixed z-50 top-0 left-0 right-0 w-full' : ''}`}>
       <div className='container mx-auto lg:px-8'>
         <nav className="mx-auto flex items-center justify-between py-4 lg:px-2" aria-label="Global">
           <div className="flex lg:flex-1">

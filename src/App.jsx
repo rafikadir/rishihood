@@ -2,6 +2,7 @@ import Admission from "./sections/Admission";
 import Banner from "./sections/Banner";
 import Blogs from "./sections/Blogs";
 import CourseInfo from "./sections/CourseInfo";
+import Curriculum from "./sections/Curriculum";
 import DemandSkill from "./sections/DemandSkill";
 import Faculty from "./sections/Faculty";
 import Feature from "./sections/Feature";
@@ -29,6 +30,7 @@ function App() {
       <Models/>
       <Program/>
       <Placement/>
+      <Curriculum/>
       <Mentor/>
       <Faculty/>
       <Feedback/>

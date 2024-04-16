@@ -4,6 +4,7 @@ import { faPlaneDeparture, faUser, faArrowTrendUp, faGraduationCap } from '@fort
 import Button from "../components/Button";
 import bannerLogo from "../assets/banner_logo.png";
 import BannerForm from '../components/BannerForm';
+import BannerForm2 from '../components/BannerForm2';
 
 const Banner = () => {
     return (
@@ -44,7 +45,8 @@ const Banner = () => {
                     </div>
 
                     <div className='col-span-2'>
-                        <BannerForm/>
+                        {/* <BannerForm/> */}
+                        <BannerForm2/>
                     </div>
                 </div>
             </div>

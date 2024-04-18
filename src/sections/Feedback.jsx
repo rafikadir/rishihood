@@ -33,7 +33,7 @@ const Feedback = () => {
                 </h2>
                 <p className="mx-auto max-w-[950px] text-center">Explore the authentic experiences and triumphs of our students through their heartfelt testimonials, shedding light on how Rishihood University has shaped their academic journey and propelled them towards success.</p>
 
-                <div className="mt-10 grid grid-cols-3 gap-3 mb-3">
+                <div className="mt-10 grid lg:grid-cols-3 grid-cols-1 gap-3 mb-3">
                     {
                         feedbackText.map((singleFeedback, index)=>(
                             <div className="bg-white p-4 rounded-2xl" key={index}>

@@ -5,16 +5,17 @@ import Button from "../components/Button";
 const Feature = () => {
     return (
         <section className="bg-darkBlue">
-            <div className="container mx-auto lg:px-10">
-                <div className="grid grid-cols-2 py-[70px]">
-                    <div>
+            <div className="container mx-auto lg:px-10 px-3">
+                <div className="grid lg:grid-cols-2 grid-cols-1 lg:py-[70px] py-[50px]">
+                    <div className="mb-4 lg:mb-0">
                         <img src={feature1} alt="features" />
                     </div>
-                    <div className="pl-10 pr-5">
-                        <h2 className="text-white text-[45px] font-garamond font-bold mb-8">Rishihood University: Empowering Innovators, Shaping Futures</h2>
-                        <p className="text-white mb-8">At Rishihood we nurture passionate learners of today to solve the big questions of tomorrow.</p>
+                    <div className="lg:pl-10 pl-0 lg:pr-5 pr-0">
+                        <h2 className="text-white lg:text-[45px] text-[24px] font-garamond font-bold lg:mb-8 mb-4">Rishihood University: Empowering Innovators, Shaping Futures</h2>
 
-                        <ul className="text-white mb-10">
+                        <p className="text-white mb-8 lg:text-[16px] text-[14px]">At Rishihood we nurture passionate learners of today to solve the big questions of tomorrow.</p>
+
+                        <ul className="text-white mb-10 text-[14px]">
                             <li className="mb-2">• India&apos;s first and only Impact University nurturing future leaders.</li>
                             <li className="mb-2">• Embracing a legacy of impactful pioneers like Jamshedji Tata and Elon Musk.</li>
                             <li className="mb-2">• Experience learning that&apos;s rooted in Indian values, yet global and forward-looking </li>
@@ -28,26 +29,27 @@ const Feature = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2 pb-[70px]">
-                    <div className="pl-10 pr-5">
-                        <h2 className="text-white text-[45px] font-garamond font-bold mb-8">Empowering Change, Driving Innovation: KPMG</h2>
-                        <p className="text-white mb-8">As part of one of the Big Four professional services firms, KPMG in India has expertise in:</p>
+                <div className="grid lg:grid-cols-2 grid-cols-1 pb-[70px]">
+                    <div className="lg:pl-10 pl-0 lg:pr-5 pr-0">
+                        <h2 className="text-white lg:text-[45px] text-[24px] font-garamond font-bold lg:mb-8 mb-4">Empowering Change, Driving Innovation: KPMG</h2>
 
-                        <ul className="text-white mb-10">
+                        <p className="text-white lg:mb-8 mb-4 lg:text-[16px] text-[14px]">As part of one of the Big Four professional services firms, KPMG in India has expertise in:</p>
+
+                        <ul className="text-white lg:mb-10 mb-4 lg:text-[16px] text-[14px]">
                             <li className="mb-2">• Risk, Financial & Business Advisory </li>
                             <li className="mb-2">• Tax & Regulatory Services </li>
                             <li className="mb-2">• Internal Audit </li>
                             <li className="mb-2">• Corporate Governance Services</li>
                         </ul>
 
-                        <p className="text-white mb-8">Additionally, KPMG in India provides integrated model-based software process improvement and assessment services to help organizations achieve business excellence.</p>
+                        <p className="text-white lg:mb-8 mb-4 text-[14px] lg:text-[16px]">Additionally, KPMG in India provides integrated model-based software process improvement and assessment services to help organizations achieve business excellence.</p>
 
                         <div className="flex gap-3">
                             <Button text="Know About Our Faculties"/>
                             <Button text="Explore the Course" transparent={true}/>
                         </div>
                     </div>
-                    <div>
+                    <div className="mt-4 lg:mt-0">
                         <img src={feature2} alt="features" />
                     </div>
                 </div>

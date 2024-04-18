@@ -43,7 +43,7 @@ const Navbar = () => {
 
   return (
     <header className={`bg-white ${isScrolled ? 'fixed z-50 top-0 left-0 right-0 w-full' : ''}`}>
-      <div className='container mx-auto lg:px-8'>
+      <div className='container mx-auto lg:px-8 px-3'>
         <nav className="mx-auto flex items-center justify-between py-4 lg:px-2" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
@@ -112,7 +112,7 @@ const Navbar = () => {
               </Transition>
             </Popover>
           </Popover.Group>
-          <div className='text-center'>
+          <div className='text-center hidden lg:block'>
             <p className='text-[#000000] font-garamond font-bold italic text-[20px] lg:pl-8'>Admission <span  className='text-darkBlue'>Open</span> For <span className='text-darkBlue'>2024</span>!!</p>
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -127,7 +127,7 @@ const Navbar = () => {
                 <span className="sr-only">Your Company</span>
                 <img
                   className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  src={logo}
                   alt=""
                 />
               </a>
@@ -185,14 +185,6 @@ const Navbar = () => {
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Company
-                  </a>
-                </div>
-                <div className="py-6">
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
-                    Log in
                   </a>
                 </div>
               </div>

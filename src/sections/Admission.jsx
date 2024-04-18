@@ -7,7 +7,7 @@ const Admission = () => {
     return (
         <section className="pt-[50px] pb-[50px]">
             <div className="container mx-auto lg:px-10">
-                <div className="grid grid-cols-2 items-center gap-[60px]">
+                <div className="grid lg:grid-cols-2 grid-cols-1 items-center gap-[60px]">
                     <div className="relative">
                         <img src={admissionImg} alt="admission" />
 

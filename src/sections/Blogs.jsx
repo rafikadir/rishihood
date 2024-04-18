@@ -54,7 +54,7 @@ const Blogs = () => {
                 <p className="mx-auto max-w-[950px] text-center text-[14px] leading-[25px] mb-10">Explore our collection of insightful blogs packed with tips, advice, and guidance to help you navigate your journey towards a successful and fulfilling career.</p>
 
 
-                <div className="grid grid-cols-3 gap-6">
+                <div className="grid lg:grid-cols-3 grid-cols-1 gap-6">
                     {
                         blogsText.map((singleBlog, index)=>(
                             <div className="p-4 rounded-3xl shadow-2xl" key={index}>

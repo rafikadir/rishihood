@@ -68,7 +68,7 @@ const Faculty = () => {
                 <h2 className="text-[40px] font-garamond font-bold text-center mb-3">Unlocking Potential: <span className="text-darkBlue">Rishihood</span> & <span className="text-darkBlue">KPMG</span> Faculty Shaping Futures</h2>
                 <p className="max-w-[850px] m-auto text-center mb-8">With a blend of academic excellence and real-world insights, our faculty members from both Rishihood and KPMG enrich the learning experience, preparing students for success in today&apos;s dynamic world.</p>
 
-                <div className="grid grid-cols-4">
+                <div className="grid lg:grid-cols-4 grid-cols-1">
                     {
                         facultyData.map((singleFaculty, index)=> 
                         ( <div className={`p-3 shadow-2xl mb-10 text-center rounded-2xl mx-2 hover:text-white bg-white group ${index % 2 !== 0 ? "hover:bg-darkBlue" : "hover:bg-red"}`} key={index}>

@@ -8,16 +8,16 @@ import { FaSortDown, FaCheckCircle } from "react-icons/fa";
 
 const Curriculum = () => {
     return (
-        <section className="pt-[100px]">
-            <div className="container mx-auto lg:px-10">
-                <h2 className="text-[40px] font-garamond font-bold mb-3">Our <span className='text-darkBlue'>Curriculum</span>, Your Path to <span className='text-darkBlue'>Success!!</span></h2>
+        <section className="lg:pt-[100px] pt-[50px]">
+            <div className="container mx-auto lg:px-10 px-3">
+                <h2 className="lg:text-[40px] text-[24px] font-garamond font-bold mb-3">Our <span className='text-darkBlue'>Curriculum</span>, Your Path to <span className='text-darkBlue'>Success!!</span></h2>
 
-                <p className="max-w-[950px] mb-8">Embark on an enriching educational journey at Rishihood University, where our innovative curriculum, developed in collaboration with industry leader KPMG, prepares you for success in the dynamic field of Business Analytics.</p>
+                <p className="max-w-[950px] text-[14px] lg:text-[16px] mb-8">Embark on an enriching educational journey at Rishihood University, where our innovative curriculum, developed in collaboration with industry leader KPMG, prepares you for success in the dynamic field of Business Analytics.</p>
             </div>
 
             <div className="mt-6">
                 <Tabs>
-                    <div className="grid grid-cols-12">
+                    <div className="grid lg:grid-cols-12 grid-cols-1">
                         <div className="col-span-3 h-[680px]">
                             <div className='rounded-tr-2xl rounded-br-2xl bg-darkBlue'>
                                 <TabList className="flex flex-col justify-center items-center">
@@ -161,7 +161,7 @@ const Curriculum = () => {
                         </div>
                         <div className="col-span-9 bg-[#F7F8FC] p-10 h-[680px] overflow-y-scroll">
                             <TabPanel>
-                                <h2 className='font-garamond text-[35px] font-bold text-darkBlue'>
+                                <h2 className='font-garamond lg:text-[35px] text-[20px] font-bold text-darkBlue'>
                                     Semester 1/ Course Curriculum/ 2 Case Studies
                                 </h2>
 
@@ -171,7 +171,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Science of Living
                                                 </span>
@@ -196,7 +196,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Understanding India
                                                 </span>
@@ -221,7 +221,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Global Grand Challenges
                                                 </span>
@@ -246,7 +246,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Professional Communications
                                                 </span>
@@ -271,7 +271,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Leadership Colloquium 1
                                                 </span>
@@ -296,7 +296,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Introduction to Business Analytics & Data Science
                                                 </span>
@@ -321,7 +321,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Business Calculus and Linear Algebra
                                                 </span>
@@ -346,7 +346,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Principles of Management & Organizational Behavior
                                                 </span>
@@ -371,7 +371,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Introduction to Financial Accounting
                                                 </span>
@@ -390,22 +390,22 @@ const Curriculum = () => {
                                     </div>
                                 </div>
 
-                                <h2 className='font-garamond text-[35px] font-bold text-darkBlue mt-8 mb-4'>
+                                <h2 className='font-garamond lg:text-[35px] text-[20px] font-bold text-darkBlue mt-8 mb-4'>
                                     Case Studies 1st Semester (2 Nos.)
                                 </h2>
 
                                 <ul>
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Understanding the application of Business analytics in E-commerce industry
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         How OTT platforms use Business Analytics
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Understanding the application of Business analytics in E-commerce industry
                                     </li>
@@ -413,7 +413,7 @@ const Curriculum = () => {
                             </TabPanel>
 
                             <TabPanel>
-                                <h2 className='font-garamond text-[35px] font-bold text-darkBlue'>
+                                <h2 className='font-garamond lg:text-[35px] text-[20px] font-bold text-darkBlue'>
                                     Semester 2/ Course Curriculum/ 2 Case Studies
                                 </h2>
 
@@ -423,7 +423,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Environment and System Thinking
                                                 </span>
@@ -448,7 +448,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Technology and Society
                                                 </span>
@@ -473,7 +473,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Indian Policy
                                                 </span>
@@ -498,7 +498,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Introduction to Statistics and Data Science
                                                 </span>
@@ -523,7 +523,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Leadership Colloquium 2
                                                 </span>
@@ -542,27 +542,27 @@ const Curriculum = () => {
                                     </div>
                                 </div>
 
-                                <h2 className='font-garamond text-[35px] font-bold text-darkBlue mt-8 mb-4'>
+                                <h2 className='font-garamond lg:text-[35px] text-[20px] font-bold text-darkBlue mt-8 mb-4'>
                                     Case Studies 1st Semester (2 Nos.)
                                 </h2>
 
                                 <ul>
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Understanding the application of Business analytics in E-commerce industry
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         How OTT platforms use Business Analytics
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Community Engagement
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         Advanced Excel for Business
                                     </li>                                 
@@ -574,7 +574,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Community Engagement
                                                 </span>
@@ -599,7 +599,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Advanced Excel for Business
                                                 </span>
@@ -624,7 +624,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Programming Fundamentals for Analytics
                                                 </span>
@@ -649,7 +649,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Finance for Decision Making
                                                 </span>
@@ -674,7 +674,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Introduction to Research
                                                 </span>
@@ -699,7 +699,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Global Immersion Program
                                                 </span>
@@ -718,17 +718,17 @@ const Curriculum = () => {
                                     </div>
                                 </div>
 
-                                <h2 className='font-garamond text-[35px] font-bold text-darkBlue mt-8 mb-4'>
+                                <h2 className='font-garamond lg:text-[35px] text-[20px] font-bold text-darkBlue mt-8 mb-4'>
                                     Case Studies 2nd Semester (2 Nos.)
                                 </h2>
 
                                 <ul>
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Cab Booking Data Analysis
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         Food Delivery App Analysis
                                     </li>                                
@@ -736,7 +736,7 @@ const Curriculum = () => {
                             </TabPanel>
 
                             <TabPanel>
-                                <h2 className='font-garamond text-[35px] font-bold text-darkBlue'>
+                                <h2 className='font-garamond lg:text-[35px] text-[20px] font-bold text-darkBlue'>
                                     Semester 3/ Course Curriculum/ 4 Case Studies
                                 </h2>
 
@@ -746,7 +746,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Python Programming
                                                 </span>
@@ -771,7 +771,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Database Management Systems
                                                 </span>
@@ -796,7 +796,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Data Science and Inferential Statistics using Excel
                                                 </span>
@@ -821,7 +821,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Cost and Management Accounting
                                                 </span>
@@ -846,7 +846,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Human Resource Management
                                                 </span>
@@ -871,7 +871,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Operations and Supply Chain Management
                                                 </span>
@@ -896,7 +896,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Marketing Management
                                                 </span>
@@ -921,7 +921,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Economics
                                                 </span>
@@ -940,27 +940,27 @@ const Curriculum = () => {
                                     </div>
                                 </div>
 
-                                <h2 className='font-garamond text-[35px] font-bold text-darkBlue mt-8 mb-4'>
+                                <h2 className='font-garamond lg:text-[35px] text-[20px] font-bold text-darkBlue mt-8 mb-4'>
                                     Case Studies 3rd Semester (4 Nos.)
                                 </h2>
 
                                 <ul>
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Sales Data Analysis
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         Employee Engagement Optimization
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Hotel Booking Data Analysis
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         Customer Personality Analysis
                                     </li>                                 
@@ -968,7 +968,7 @@ const Curriculum = () => {
                             </TabPanel>
 
                             <TabPanel>
-                                <h2 className='font-garamond text-[35px] font-bold text-darkBlue'>
+                                <h2 className='font-garamond lg:text-[35px] text-[20px] font-bold text-darkBlue'>
                                     Semester 4/ Course Curriculum/ 4 Case Studies
                                 </h2>
 
@@ -978,7 +978,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Data Structures
                                                 </span>
@@ -1003,7 +1003,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Statistics with R
                                                 </span>
@@ -1028,7 +1028,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Spreadsheet Models for Business Decision Problems
                                                 </span>
@@ -1053,7 +1053,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Corporate Finance
                                                 </span>
@@ -1078,7 +1078,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Corporate and Global Law
                                                 </span>
@@ -1103,7 +1103,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Consumer Behaviour
                                                 </span>
@@ -1128,7 +1128,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Summer Internship
                                                 </span>
@@ -1147,27 +1147,27 @@ const Curriculum = () => {
                                     </div>
                                 </div>
 
-                                <h2 className='font-garamond text-[35px] font-bold text-darkBlue mt-8 mb-4'>
+                                <h2 className='font-garamond lg:text-[35px] text-[20px] font-bold text-darkBlue mt-8 mb-4'>
                                     Case Studies 4th Semester (4 Nos.)
                                 </h2>
 
                                 <ul>
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Books Rating Analysis
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         Hardware Equipment Sales Analysis
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Inventory Management
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         OTT Data Analysis
                                     </li>                                 
@@ -1175,7 +1175,7 @@ const Curriculum = () => {
                             </TabPanel>
 
                             <TabPanel>
-                                <h2 className='font-garamond text-[35px] font-bold text-darkBlue'>
+                                <h2 className='font-garamond lg:text-[35px] text-[20px] font-bold text-darkBlue'>
                                     Semester 5/ Course Curriculum/ 7 Case Studies
                                 </h2>
 
@@ -1185,7 +1185,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Integrating Marketing Communications
                                                 </span>
@@ -1210,7 +1210,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     AI for Business
                                                 </span>
@@ -1235,7 +1235,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Predictive Analysis for Business Forecasting
                                                 </span>
@@ -1260,7 +1260,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Professional Communications
                                                 </span>
@@ -1285,7 +1285,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Data Exploration & Visualization
                                                 </span>
@@ -1310,7 +1310,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Stochastic Modeling
                                                 </span>
@@ -1335,7 +1335,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     International Business
                                                 </span>
@@ -1360,7 +1360,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Entrepreneurship & Innovation
                                                 </span>
@@ -1385,7 +1385,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Business Research Project I
                                                 </span>
@@ -1404,42 +1404,42 @@ const Curriculum = () => {
                                     </div>
                                 </div>
 
-                                <h2 className='font-garamond text-[35px] font-bold text-darkBlue mt-8 mb-4'>
+                                <h2 className='font-garamond lg:text-[35px] text-[20px] font-bold text-darkBlue mt-8 mb-4'>
                                     Case Studies 5th Semester (7 Nos.)
                                 </h2>
 
                                 <ul>
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Covid Dashboard Creation
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         Dashboard Creation
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Marketing Campaign Analysis
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         Olympic Data Analysis and Dashboard creation
                                     </li>  
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Manpower Need Prediction
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         Marketing Campaign Analysis
                                     </li>
 
-                                     <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                     <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Building Optimization Models for Manufacturing Industry
                                     </li>                                 
@@ -1447,7 +1447,7 @@ const Curriculum = () => {
                             </TabPanel>
 
                             <TabPanel>
-                                <h2 className='font-garamond text-[35px] font-bold text-darkBlue'>
+                                <h2 className='font-garamond lg:text-[35px] text-[20px] font-bold text-darkBlue'>
                                     Semester 6/ Course Curriculum/ 4 Case Studies
                                 </h2>
 
@@ -1457,7 +1457,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Machine Learning for Business
                                                 </span>
@@ -1482,7 +1482,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Advanced Analytics - Big Data, Cloud Computing
                                                 </span>
@@ -1507,7 +1507,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Optimization Analytics and Predictive Modeling
                                                 </span>
@@ -1532,7 +1532,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Brand Management
                                                 </span>
@@ -1557,7 +1557,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Professional Ethics in the Digital Age
                                                 </span>
@@ -1582,7 +1582,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Strategic Management
                                                 </span>
@@ -1607,7 +1607,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Change Management
                                                 </span>
@@ -1632,7 +1632,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Business Research Project II
                                                 </span>
@@ -1651,27 +1651,27 @@ const Curriculum = () => {
                                     </div>
                                 </div>
 
-                                <h2 className='font-garamond text-[35px] font-bold text-darkBlue mt-8 mb-4'>
+                                <h2 className='font-garamond lg:text-[35px] text-[20px] font-bold text-darkBlue mt-8 mb-4'>
                                     Case Studies 6th Semester (4 Nos.)
                                 </h2>
 
                                 <ul>
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Employee Salary Prediction
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         Marketing Strategies for Bank Data
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Spillage Prediction in Construction
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         Customer Sales Analysis
                                     </li>                                   
@@ -1679,7 +1679,7 @@ const Curriculum = () => {
                             </TabPanel>
 
                             <TabPanel>
-                                <h2 className='font-garamond text-[35px] font-bold text-darkBlue'>
+                                <h2 className='font-garamond lg:text-[35px] text-[20px] font-bold text-darkBlue'>
                                     Semester 7/ Course Curriculum/ 7 Case Studies
                                 </h2>
 
@@ -1689,7 +1689,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Blockchain for Managers
                                                 </span>
@@ -1714,7 +1714,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Financial Analytics
                                                 </span>
@@ -1739,7 +1739,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Marketing Analytics
                                                 </span>
@@ -1764,7 +1764,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     People Analytics
                                                 </span>
@@ -1789,7 +1789,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Time Series Analysis for Business
                                                 </span>
@@ -1814,7 +1814,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Business Research Methods
                                                 </span>
@@ -1839,7 +1839,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Industrial Training
                                                 </span>
@@ -1858,41 +1858,41 @@ const Curriculum = () => {
                                     </div>
                                 </div>
 
-                                <h2 className='font-garamond text-[35px] font-bold text-darkBlue mt-8 mb-4'>
+                                <h2 className='font-garamond lg:text-[35px] text-[20px] font-bold text-darkBlue mt-8 mb-4'>
                                     Case Studies 7th Semester (7 Nos.)
                                 </h2>
 
                                 <ul>
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Loan Default Prediction
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         Customer Segmentation on Hospitality Data
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Flight Price Prediction
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         Image Classification and Reduction
                                     </li> 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Predicting Customer Lifetime Value of Supermarket
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         Credit Card Spend Analysis
                                     </li>   
 
-                                     <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                     <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Research Training Program with Taylor & Francis (optional)
                                     </li>                                
@@ -1900,7 +1900,7 @@ const Curriculum = () => {
                             </TabPanel>
                             
                             <TabPanel>
-                                <h2 className='font-garamond text-[35px] font-bold text-darkBlue'>
+                                <h2 className='font-garamond lg:text-[35px] text-[20px] font-bold text-darkBlue'>
                                     Semester 8/ Course Curriculum/ 5 Case Studies
                                 </h2>
 
@@ -1910,7 +1910,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Fraud Analytics
                                                 </span>
@@ -1935,7 +1935,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Web & Social Media Analytics
                                                 </span>
@@ -1960,7 +1960,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Operations and Supply Chain Analytics
                                                 </span>
@@ -1985,7 +1985,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Prescriptive Analysis for Business Forecasting
                                                 </span>
@@ -2010,7 +2010,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-darkBlue'/>
                                                     Risk Analytics
                                                 </span>
@@ -2035,7 +2035,7 @@ const Curriculum = () => {
                                         {({ open }) => (
                                             <>
                                             <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                                <span className='flex items-center font-garamond font-bold text-[16px]'>
+                                                <span className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px]'>
                                                     <FaCheckCircle className='mr-2 text-red'/>
                                                     Thesis
                                                 </span>
@@ -2054,31 +2054,31 @@ const Curriculum = () => {
                                     </div>
                                 </div>
 
-                                <h2 className='font-garamond text-[35px] font-bold text-darkBlue mt-8 mb-4'>
+                                <h2 className='font-garamond lg:text-[35px] text-[20px] font-bold text-darkBlue mt-8 mb-4'>
                                     Case Studies 8th Semester (5 Nos.)
                                 </h2>
 
                                 <ul>
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Sentiment Analysis on Online Feedback Data
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         Scrapping Data from
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Scrapping Reviews from E-Commerce Website and Performing Text Analytics
                                     </li>
 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-red'/>
                                         Fraud Transaction Prediction
                                     </li> 
-                                    <li className='flex items-center font-garamond font-bold text-[16px] mb-3'>
+                                    <li className='flex items-center font-garamond font-bold lg:text-[16px] text-[14px] mb-3'>
                                         <FaCheckCircle className='mr-2 text-darkBlue'/>
                                         Building Supply Chain Dashboard
                                     </li>                              

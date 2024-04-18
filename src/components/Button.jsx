@@ -1,7 +1,7 @@
 
 const Button = ({text,transparent, style2, center}) => {
     return (
-        <a href="#" className={` ${transparent && style2 ? "bg-transparent border border-2 !text-black border-black" : "bg-[#DB541B]"} ${center ? "justify-center" : ""} text-[15px] font-semibold leading-6 text-white flex items-center py-3 px-5 rounded-[50px]`}>
+        <a href="#" className={` ${transparent && style2 ? "bg-transparent border border-2 !text-black border-black" : "bg-[#DB541B]"} ${center ? "justify-center" : ""} lg:text-[15px] text-[10px] font-semibold lg:leading-6 text-white flex items-center py-3 px-5 rounded-[50px]`}>
             {text}
 
             {

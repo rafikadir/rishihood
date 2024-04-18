@@ -27,17 +27,17 @@ const CourseInfo = () => {
     ];
 
     return (
-        <section className="py-12 shadow-xl">
-            <div className="container mx-auto lg:px-12">
-                <div className="flex items-center justify-between">
+        <section className="py-12 shadow-xl mx-3">
+            <div className="container mx-auto lg:px-12 px-3">
+                <div className="flex lg:flex-row flex-col lg:items-center justify-between gap-5">
                     {
                         CourseInfoText.map((singleInfo, index) => (
-                            <div key={index} className="border-l-2 px-3 pl-5 border-opacity-10 border-darkBlue">
-                                <span className="text-[18px] text-black">
+                            <div key={index} className="lg:border-l-2 lg:px-3 lg:pl-5 lg:border-opacity-10 lg:border-darkBlue">
+                                <span className="lg:text-[18px] text-[12px] text-black">
                                     <FontAwesomeIcon icon={faClock} className="mr-1 w-4"/>
                                     {singleInfo.subtitle}
                                 </span>
-                                <h3 className="text-[26px] font-garamond text-darkBlue font-bold mb-2">{singleInfo.title}</h3>
+                                <h3 className="lg:text-[26px] text-[20px] font-garamond text-darkBlue font-bold lg:mb-2 mb-0">{singleInfo.title}</h3>
                                 <p className="text-[14px]">{singleInfo.desc}</p>
                             </div>
                         ))

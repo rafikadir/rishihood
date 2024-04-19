@@ -116,7 +116,7 @@ const Navbar = () => {
             <p className='text-[#000000] font-garamond font-bold italic text-[20px] lg:pl-8'>Admission <span  className='text-darkBlue'>Open</span> For <span className='text-darkBlue'>2024</span>!!</p>
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <Button text="Register Now"/>
+            <Button text="Register Now" link="#home"/>
           </div>
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>

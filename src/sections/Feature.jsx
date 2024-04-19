@@ -6,8 +6,8 @@ const Feature = () => {
     return (
         <section className="bg-darkBlue">
             <div className="container mx-auto lg:px-10 px-3">
-                <div className="grid lg:grid-cols-2 grid-cols-1 lg:py-[70px] py-[50px]">
-                    <div className="mb-4 lg:mb-0">
+                <div className="grid md:grid-cols-2 grid-cols-1 lg:py-[70px] py-[50px] md:gap-3 lg:gap-0">
+                    <div className="mb-4 md:mb-0">
                         <img src={feature1} alt="features" />
                     </div>
                     <div className="lg:pl-10 pl-0 lg:pr-5 pr-0">
@@ -29,7 +29,7 @@ const Feature = () => {
                     </div>
                 </div>
 
-                <div className="grid lg:grid-cols-2 grid-cols-1 pb-[70px]">
+                <div className="grid md:grid-cols-2 grid-cols-1 pb-[70px]">
                     <div className="lg:pl-10 pl-0 lg:pr-5 pr-0">
                         <h2 className="text-white lg:text-[45px] text-[24px] font-garamond font-bold lg:mb-8 mb-4">Empowering Change, Driving Innovation: KPMG</h2>
 

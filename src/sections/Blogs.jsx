@@ -47,9 +47,9 @@ const Blogs = () => {
     ];
 
     return (
-        <section className="py-[70px]">
-            <div className="container mx-auto lg:px-10">
-                <h2 className="text-[30px] text-center font-garamond font-bold mb-2"><span className="text-darkBlue">Blogs</span> for Building Your <span className="text-darkBlue">Path</span> to a <span className="text-darkBlue">Successful Career</span></h2>
+        <section className="lg:py-[70px] py-[50px]">
+            <div className="container mx-auto lg:px-10 px-3">
+                <h2 className="lg:text-[30px] text-[22px] text-center font-garamond font-bold mb-2"><span className="text-darkBlue">Blogs</span> for Building Your <span className="text-darkBlue">Path</span> to a <span className="text-darkBlue">Successful Career</span></h2>
 
                 <p className="mx-auto max-w-[950px] text-center text-[14px] leading-[25px] mb-10">Explore our collection of insightful blogs packed with tips, advice, and guidance to help you navigate your journey towards a successful and fulfilling career.</p>
 
@@ -76,7 +76,7 @@ const Blogs = () => {
                                     </ul>
                                 </div>
     
-                                <h2 className="text-[18px] flex font-bold underline mb-3">
+                                <h2 className="lg:text-[18px] text-[14px] flex font-bold underline mb-3">
                                     <a href="#">
                                         {singleBlog.title}
                                     </a>
@@ -98,12 +98,12 @@ const Blogs = () => {
                     }
                 </div>
 
-                <div className="text-center flex justify-center gap-3 mt-[65px]">
-                    <a href="#" className="bg-red text-white px-5 py-4 flex items-center rounded-[30px]">
+                <div className="text-center flex justify-center lg:flex-row flex-col gap-3 mt-[65px]">
+                    <a href="#" className="bg-red text-white lg:px-5 px-3 lg:py-4 py-2 flex items-center rounded-[30px] lg:text-[16px] text-[14px] justify-center">
                         Explore All Blogs
                         <GoArrowUpRight className="ml-1"/>
                     </a>
-                    <a href="#" className="px-5 py-4 flex items-center rounded-[30px] border">
+                    <a href="#" className="lg:px-5 px-3 lg:py-4 py-2 flex items-center rounded-[30px] border lg:text-[16px] text-[14px] justify-center">
                         Register Now At Rishihood
                         <GoArrowUpRight />
                     </a>

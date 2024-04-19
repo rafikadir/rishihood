@@ -6,9 +6,9 @@ const DemandSkill = () => {
     return (
         <section className="lg:py-[100px] py-[50px]">
             <div className="container mx-auto lg:px-10 px-3">
-                <div className="grid lg:grid-cols-2 grid-cols-1 items-center">
+                <div className="grid md:grid-cols-2 grid-cols-1 items-center">
                     <div>
-                        <img src={demandImg} className="lg:max-w-[500px] wax-w-full mx-auto mb-4" alt="demand skills image" />
+                        <img src={demandImg} className="lg:max-w-[500px] md:max-w-[300px] wax-w-full mx-auto mb-4" alt="demand skills image" />
                     </div>
                     <div>
                         <div>

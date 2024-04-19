@@ -8,8 +8,8 @@ import BannerForm2 from '../components/BannerForm2';
 const Banner = () => {
     return (
         <section className="bg-cover" style={{backgroundImage: `url(${banner})`}}>
-            <div className='container mx-auto lg:py-[100px] py-[50px] lg:px-8 px-3'>
-                <div className='grid lg:grid-cols-5 grid-cols-2 items-center'>
+            <div className='container mx-auto md:py-[100px] py-[50px] lg:px-8 px-3'>
+                <div className='grid md:grid-cols-5 grid-cols-2 items-center'>
                     <div className='col-span-3'>
                         <h2 className="font-garamond lg:text-[44px] text-white lg:leading-[50px] mb-8 text-[24px] leading-[35px]">
                             Bachelor’s Program in Business <br/> Analytics in Association <br/> with KPMG in India
@@ -40,7 +40,7 @@ const Banner = () => {
 
                         <p className='mb-4 text-white text-[14px]'>UGC-approved program at Rishihood University in collaboration with KPMG</p>
                     
-                        <img src={bannerLogo} className='lg:max-w-[380px] max-w-full' alt="banner logo" />
+                        <img src={bannerLogo} className='md:max-w-[380px] max-w-full' alt="banner logo" />
                     </div>
 
                     <div className='col-span-2'>

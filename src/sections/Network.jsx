@@ -57,14 +57,14 @@ import network56 from '../assets/network/56.png';
 
 const Network = () => {
     return (
-        <section className='py-[70px] bg-[#F8F9FD]'>
+        <section className='lg:py-[70px] py-[50px] bg-[#F8F9FD]'>
             <div className="container mx-auto">
-                <h2 className="text-[30px] text-center font-garamond font-bold mb-2"><span className="text-darkBlue">Global Wisdom:</span> Transform Your Future with Our Premier <span className="text-darkBlue"> Mentor&apos;s 
+                <h2 className="lg:text-[30px] text-[22px] text-center font-garamond font-bold mb-2"><span className="text-darkBlue">Global Wisdom:</span> Transform Your Future with Our Premier <span className="text-darkBlue"> Mentor&apos;s 
                 Network</span></h2>
             
                 <p className="mx-auto max-w-[950px] text-center text-[14px] leading-[25px] mb-10">Embark on a transformative journey with Rishihood University&apos;s elite coaching and mentoring team, drawn from the ranks of top companies and institutions worldwide.</p>
 
-                <div className="marquee-container mb-7">
+                <div className="marquee-container lg:mb-7 mb-3">
                     <div className="marquee-box">
                         <img src={network1} alt="network" className='max-w-[115px]'/>
                         <img src={network2} alt="network" className='max-w-[115px]'/>
@@ -90,7 +90,7 @@ const Network = () => {
                         <img src={network18} alt="network" className='max-w-[115px]'/>
                     </div>
                 </div>
-                <div className="marquee-container mb-7">
+                <div className="marquee-container lg:mb-7 mb-3">
                     <div className="marquee-box2">
                         <img src={network19} alt="network" className='max-w-[115px]'/>
                         <img src={network20} alt="network" className='max-w-[115px]'/>

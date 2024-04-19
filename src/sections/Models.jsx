@@ -12,7 +12,7 @@ const Models = () => {
                 <h2 className="lg:text-[35px] text-[24px] font-garamond mb-8"><span        className="text-darkBlue">KPMG</span> Pedagogy is based on <span className="text-darkBlue">Contemporary Models</span> and <span className="text-darkBlue">Methodologies</span> such as:
                 </h2>
             
-                <div className="grid lg:grid-cols-6 grid-cols-1 gap-5">
+                <div className="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-1 gap-5">
                     <div className="flex items-center lg:border-r-2 border-opacity-10 border-darkBlue">
                         <div className="lg:max-w-7 max-w-5 mr-2">
                             <img src={icon_growth} alt="growth" />

@@ -10,41 +10,43 @@ import { FaFacebookF,
 
 const Footer = () => {
     return (
-        <section className="bg-gradient-to-r from-[#221D39] to-[#51729F] pt-[100px]">
-            <div className="container mx-auto pb-[100px] lg:px-10">
+        <section className="bg-gradient-to-r from-[#221D39] to-[#51729F] lg:pt-[100px] pt-[50px]">
+            <div className="container mx-auto lg:pb-[100px] pb-[50px] lg:px-10 px-3">
                 <div className="grid lg:grid-cols-6 grid-cols-1">
-                    <div className="lg:col-span-2">
-                        <img src={footerlogo} alt="logo" className="max-w-[150px] mb-5"/>
-                        <p className="text-[14px] text-white mb-7 max-w-[350px]">Rishihood University is a dynamic institution dedicated to fostering holistic development and nurturing future-ready leaders.</p>
-                        <a href="#" className="px-5 py-4 rounded-[30px] border border-white text-white flex items-center max-w-[200px] justify-center">
+                    <div className="lg:col-span-2 mb-4">
+                        <img src={footerlogo} alt="logo" className="max-w-[150px] lg:mb-5 mb-2"/>
+
+                        <p className="text-[14px] text-white lg:mb-7 mb-3 max-w-[350px]">Rishihood University is a dynamic institution dedicated to fostering holistic development and nurturing future-ready leaders.</p>
+
+                        <a href="#" className="lg:px-5 px-3 lg:py-4 py-2 rounded-[30px] border border-white text-white flex items-center max-w-[200px] justify-center lg:text-[16px] text-[14px]">
                             Register Now
                             <LuArrowUpRight/>
                         </a>
                     </div>
 
-                    <div className="lg:col-auto">
-                        <h3 className="text-white font-garamond text-[22px] font-bold mb-6">Company</h3>
+                    <div className="lg:col-auto lg:mb-0 mb-5">
+                        <h3 className="text-white font-garamond text-[22px] font-bold lg:mb-6 mb-2">Company</h3>
                         <ul>
-                            <li className="mb-3">
-                                <a href="#" className="text-white text-[15px]">Home</a>
+                            <li className="lg:mb-3 mb-1">
+                                <a href="#" className="text-white lg:text-[15px] text-[14px]">Home</a>
                             </li>
-                            <li className="mb-3">
-                                <a href="#" className="text-white text-[15px]">About Rishihood</a>
+                            <li className="lg:mb-3 mb-1">
+                                <a href="#" className="text-white lg:text-[15px] text-[14px]">About Rishihood</a>
                             </li>
-                            <li className="mb-3">
-                                <a href="#" className="text-white text-[15px]">About KPMG</a>
+                            <li className="lg:mb-3 mb-1">
+                                <a href="#" className="text-white lg:text-[15px] text-[14px]">About KPMG</a>
                             </li>
-                            <li className="mb-3">
-                                <a href="#" className="text-white text-[15px]">Highlights</a>
+                            <li className="lg:mb-3 mb-1">
+                                <a href="#" className="text-white lg:text-[15px] text-[14px]">Highlights</a>
                             </li>
-                            <li className="mb-3">
-                                <a href="#" className="text-white text-[15px]">Curriculum</a>
+                            <li className="lg:mb-3 mb-1">
+                                <a href="#" className="text-white lg:text-[15px] text-[14px]">Curriculum</a>
                             </li>
                         </ul>
                     </div>
 
-                    <div className="lg:col-auto">
-                        <h3 className="text-white font-garamond text-[22px] font-bold mb-6">Sitemap</h3>
+                    <div className="lg:col-auto lg:mb-0 mb-5">
+                        <h3 className="text-white font-garamond text-[22px] font-bold lg:mb-6 mb-2">Sitemap</h3>
                         <ul>
                             <li className="mb-3">
                                 <a href="#" className="text-white text-[15px]">Faculties</a>
@@ -64,8 +66,8 @@ const Footer = () => {
                         </ul>
                     </div>
                     
-                    <div className="lg:col-auto">
-                        <h3 className="text-white font-garamond text-[22px] font-bold mb-6">Address</h3>
+                    <div className="lg:col-auto lg:mb-0 mb-5">
+                        <h3 className="text-white font-garamond text-[22px] font-bold lg:mb-6 mb-2">Address</h3>
                         <p className="text-white text-[15px] mb-3">Rishihood University, NH-44 (
                         GT Road), Near Bahalgarh 
                         Chowk, Delhi NCR, Sonipat, 
@@ -93,10 +95,10 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="grid lg:grid-cols-5 grid-cols-1 items-center">
-                <div className="rounded-tr-[100px] lg:col-span-2 bg-gradient-to-r from-[#221D39] to-[#51729F] h-[60px]"></div>
+            <div className="grid lg:grid-cols-5 grid-cols-3 items-center">
+                <div className="rounded-tr-[100px] lg:col-span-2 bg-gradient-to-r from-[#221D39] to-[#51729F] lg:h-[60px] h-[30px]"></div>
                 <div>
-                    <ul className="flex justify-center items-center gap-4 text-white text-[18px]">
+                    <ul className="flex justify-center items-center lg:gap-4 gap-2 text-white lg:text-[18px] text-[14px]">
                         <li><a href="#"><FaFacebookF/></a></li>
                         <li><a href="#"><FaInstagram/></a></li>
                         <li><a href="#"><FaLinkedinIn/></a></li>
@@ -104,7 +106,7 @@ const Footer = () => {
                         <li><a href="#"><FaYoutube/></a></li>
                     </ul>
                 </div>
-                <div className="rounded-tl-[100px] lg:col-span-2 bg-gradient-to-l from-[#221D39] to-[#51729F] h-[60px]"></div>
+                <div className="rounded-tl-[100px] lg:col-span-2 bg-gradient-to-l from-[#221D39] to-[#51729F] lg:h-[60px] h-[30px]"></div>
             </div>
         </section>
     );

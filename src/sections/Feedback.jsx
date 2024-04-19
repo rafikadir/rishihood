@@ -28,10 +28,11 @@ const Feedback = () => {
 
     return (
         <section className="bg-[#F2F4FB] py-[50px]">
-            <div className="container mx-auto lg:px-10">
-                <h2 className="text-[38px] text-center font-garamond font-bold mb-2"><span className="text-darkBlue">Student</span> and <span className="text-darkBlue">Parent</span> Voices: Stories of <span className="text-darkBlue">Success</span> and <span className="text-darkBlue">Satisfaction</span>
+            <div className="container mx-auto lg:px-10 px-3">
+                <h2 className="lg:text-[38px] text-[20px] text-center font-garamond font-bold mb-2"><span className="text-darkBlue">Student</span> and <span className="text-darkBlue">Parent</span> Voices: Stories of <span className="text-darkBlue">Success</span> and <span className="text-darkBlue">Satisfaction</span>
                 </h2>
-                <p className="mx-auto max-w-[950px] text-center">Explore the authentic experiences and triumphs of our students through their heartfelt testimonials, shedding light on how Rishihood University has shaped their academic journey and propelled them towards success.</p>
+
+                <p className="mx-auto max-w-[950px] text-center lg:text-[16px] text-[14px]">Explore the authentic experiences and triumphs of our students through their heartfelt testimonials, shedding light on how Rishihood University has shaped their academic journey and propelled them towards success.</p>
 
                 <div className="mt-10 grid lg:grid-cols-3 grid-cols-1 gap-3 mb-3">
                     {

@@ -64,14 +64,15 @@ const Faculty = () => {
 
     return (
         <section className="pb-[70px]">
-            <div className="container mx-auto lg:px-10">
-                <h2 className="text-[40px] font-garamond font-bold text-center mb-3">Unlocking Potential: <span className="text-darkBlue">Rishihood</span> & <span className="text-darkBlue">KPMG</span> Faculty Shaping Futures</h2>
-                <p className="max-w-[850px] m-auto text-center mb-8">With a blend of academic excellence and real-world insights, our faculty members from both Rishihood and KPMG enrich the learning experience, preparing students for success in today&apos;s dynamic world.</p>
+            <div className="container mx-auto lg:px-10 px-3">
+                <h2 className="lg:text-[40px] text-[20px] font-garamond font-bold text-center mb-3">Unlocking Potential: <span className="text-darkBlue">Rishihood</span> & <span className="text-darkBlue">KPMG</span> Faculty Shaping Futures</h2>
 
-                <div className="grid lg:grid-cols-4 grid-cols-1">
+                <p className="max-w-[850px] m-auto text-center mb-8 lg-[16px] text-[14px]">With a blend of academic excellence and real-world insights, our faculty members from both Rishihood and KPMG enrich the learning experience, preparing students for success in today&apos;s dynamic world.</p>
+
+                <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1">
                     {
                         facultyData.map((singleFaculty, index)=> 
-                        ( <div className={`p-3 shadow-2xl mb-10 text-center rounded-2xl mx-2 hover:text-white bg-white group ${index % 2 !== 0 ? "hover:bg-darkBlue" : "hover:bg-red"}`} key={index}>
+                        ( <div className={`p-3 shadow-2xl lg:mb-10 mb-4 text-center rounded-2xl mx-2 hover:text-white bg-white group ${index % 2 !== 0 ? "hover:bg-darkBlue" : "hover:bg-red"}`} key={index}>
                             <div className="relative">
                                 <img src={singleFaculty.img} alt="faculty" />
 
@@ -80,18 +81,19 @@ const Faculty = () => {
                                 </div>
                             </div>
                             <h3 className="font-garamond text-xl font-bold mt-5 mb-2">{singleFaculty.name}</h3>
-                            <p className="mb-5 text-[#6D737A] group-hover:text-white">{singleFaculty.desc}</p>
+                            <p className="lg:text-[16px] text-[14px] mb-5 text-[#6D737A] group-hover:text-white">{singleFaculty.desc}</p>
                         </div>))
                     }
                     
                 </div>
 
-                <div className="text-center flex justify-center gap-3 mt-8">
-                    <a href="#" className="bg-red text-white px-5 py-4 flex items-center rounded-[30px]">
+                <div className="text-center flex md:flex-row flex-col justify-center gap-3 md:mt-8 mt-5">
+                    <a href="#" className="bg-red text-white md:px-5 px-2 md:py-4 py-2 flex items-center rounded-[30px] lg:text-[16px] text-[14px] justify-center">
                         View All Faculties
                         <GoArrowUpRight className="ml-1"/>
                     </a>
-                    <a href="#" className="px-5 py-4 flex items-center rounded-[30px] border">
+
+                    <a href="#" className="md:px-5 px-2 md:py-4 py-2 flex items-center rounded-[30px] border lg:text-[16px] text-[14px]">
                         Know What You Will Be Taught By Them
                         <GoArrowUpRight />
                     </a>

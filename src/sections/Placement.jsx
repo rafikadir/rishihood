@@ -5,7 +5,7 @@ const Placement = () => {
     return (
         <section>
             <div className="container mx-auto lg:px-10 px-3">
-                <div className="grid lg:grid-cols-2 grid-cols-1 items-center">
+                <div className="grid md:grid-cols-2 md:gap-3 lg:gap-0 grid-cols-1 items-center">
                     <div className="mb-3 lg:mb-0">
                         <img src={img} alt="placement" />
                     </div>

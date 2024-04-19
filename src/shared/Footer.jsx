@@ -12,15 +12,15 @@ const Footer = () => {
     return (
         <section className="bg-gradient-to-r from-[#221D39] to-[#51729F] lg:pt-[100px] pt-[50px]">
             <div className="container mx-auto lg:pb-[100px] pb-[50px] lg:px-10 px-3">
-                <div className="grid lg:grid-cols-6 grid-cols-1">
+                <div className="grid lg:grid-cols-6 md:grid-cols-2 grid-cols-1 md:gap-4">
                     <div className="lg:col-span-2 mb-4">
                         <img src={footerlogo} alt="logo" className="max-w-[150px] lg:mb-5 mb-2"/>
 
                         <p className="text-[14px] text-white lg:mb-7 mb-3 max-w-[350px]">Rishihood University is a dynamic institution dedicated to fostering holistic development and nurturing future-ready leaders.</p>
 
-                        <a href="#" className="lg:px-5 px-3 lg:py-4 py-2 rounded-[30px] border border-white text-white flex items-center max-w-[200px] justify-center lg:text-[16px] text-[14px]">
+                        <a href="#" className="lg:px-2 px-3 lg:py-2 py-2 rounded-[30px] border border-white text-white flex items-center max-w-[200px] justify-center lg:text-[16px] text-[14px]">
                             Register Now
-                            <LuArrowUpRight/>
+                            <LuArrowUpRight className="ml-2"/>
                         </a>
                     </div>
 
@@ -28,10 +28,10 @@ const Footer = () => {
                         <h3 className="text-white font-garamond text-[22px] font-bold lg:mb-6 mb-2">Company</h3>
                         <ul>
                             <li className="lg:mb-3 mb-1">
-                                <a href="#" className="text-white lg:text-[15px] text-[14px]">Home</a>
+                                <a href="#home" className="text-white lg:text-[15px] text-[14px]">Home</a>
                             </li>
                             <li className="lg:mb-3 mb-1">
-                                <a href="#" className="text-white lg:text-[15px] text-[14px]">About Rishihood</a>
+                                <a href="#feature" className="text-white lg:text-[15px] text-[14px]">About Rishihood</a>
                             </li>
                             <li className="lg:mb-3 mb-1">
                                 <a href="#" className="text-white lg:text-[15px] text-[14px]">About KPMG</a>
@@ -40,7 +40,7 @@ const Footer = () => {
                                 <a href="#" className="text-white lg:text-[15px] text-[14px]">Highlights</a>
                             </li>
                             <li className="lg:mb-3 mb-1">
-                                <a href="#" className="text-white lg:text-[15px] text-[14px]">Curriculum</a>
+                                <a href="#curriculum" className="text-white lg:text-[15px] text-[14px]">Curriculum</a>
                             </li>
                         </ul>
                     </div>
@@ -49,19 +49,19 @@ const Footer = () => {
                         <h3 className="text-white font-garamond text-[22px] font-bold lg:mb-6 mb-2">Sitemap</h3>
                         <ul>
                             <li className="mb-3">
-                                <a href="#" className="text-white text-[15px]">Faculties</a>
+                                <a href="#faculty" className="text-white text-[15px]">Faculties</a>
                             </li>
                             <li className="mb-3">
-                                <a href="#" className="text-white text-[15px]">Mentors</a>
+                                <a href="#mentors" className="text-white text-[15px]">Mentors</a>
                             </li>
                             <li className="mb-3">
-                                <a href="#" className="text-white text-[15px]">Global Partnership</a>
+                                <a href="#partner" className="text-white text-[15px]">Global Partnership</a>
                             </li>
                             <li className="mb-3">
-                                <a href="#" className="text-white text-[15px]">Registration Form</a>
+                                <a href="#home" className="text-white text-[15px]">Registration Form</a>
                             </li>
                             <li className="mb-3">
-                                <a href="#" className="text-white text-[15px]">Student Testimonials</a>
+                                <a href="#feedback" className="text-white text-[15px]">Student Testimonials</a>
                             </li>
                         </ul>
                     </div>

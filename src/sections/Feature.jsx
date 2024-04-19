@@ -4,8 +4,8 @@ import Button from "../components/Button";
 
 const Feature = () => {
     return (
-        <section className="bg-darkBlue">
-            <div className="container mx-auto lg:px-10 px-3">
+        <section className="bg-darkBlue" id="feature">
+            <div className="container mx-auto px-3 lg:px-0">
                 <div className="grid md:grid-cols-2 grid-cols-1 lg:py-[70px] py-[50px] md:gap-3 lg:gap-0">
                     <div className="mb-4 md:mb-0">
                         <img src={feature1} alt="features" />
@@ -23,8 +23,16 @@ const Feature = () => {
                         </ul>
 
                         <div className="flex gap-3">
-                            <Button text="Know About Our Faculties"/>
-                            <Button text="Explore the Course" transparent={true}/>
+                            <Button 
+                                text="Know About Our Faculties"
+                                link="#faculty"
+                            />
+
+                            <Button 
+                                text="Explore the Course" 
+                                transparent={true}
+                                link="#curriculum"
+                            />
                         </div>
                     </div>
                 </div>
@@ -35,7 +43,7 @@ const Feature = () => {
 
                         <p className="text-white lg:mb-8 mb-4 lg:text-[16px] text-[14px]">As part of one of the Big Four professional services firms, KPMG in India has expertise in:</p>
 
-                        <ul className="text-white lg:mb-10 mb-4 lg:text-[16px] text-[14px]">
+                        <ul className="text-white lg:mb-10 mb-4 lg:text-[16px] text-[14px] md:ml-3 ml-0">
                             <li className="mb-2">• Risk, Financial & Business Advisory </li>
                             <li className="mb-2">• Tax & Regulatory Services </li>
                             <li className="mb-2">• Internal Audit </li>
@@ -45,8 +53,12 @@ const Feature = () => {
                         <p className="text-white lg:mb-8 mb-4 text-[14px] lg:text-[16px]">Additionally, KPMG in India provides integrated model-based software process improvement and assessment services to help organizations achieve business excellence.</p>
 
                         <div className="flex gap-3">
-                            <Button text="Know About Our Faculties"/>
-                            <Button text="Explore the Course" transparent={true}/>
+                            <Button text="Know About Our Faculties" link="#faculty"/>
+                            <Button 
+                                text="Explore the Course" 
+                                transparent={true}
+                                link="#curriculum"
+                            />
                         </div>
                     </div>
                     <div className="mt-4 lg:mt-0">

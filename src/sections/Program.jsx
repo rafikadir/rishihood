@@ -23,12 +23,12 @@ const Program = () => {
                     <div className="lg:pl-9">
                         <h2 className="font-garamond lg:text-[40px] text-[24px] font-bold lg:mb-6 mb-2">Highlights Of The Program:</h2>
 
-                        <p className="mb-6">Dive into the Bachelor&amp;s Program in Business Analytics at Rishihood University, co-created with KPMG in India, designed to offer a blend of academic excellence and real-world expertise. Here&amp;s why our program stands out</p>
+                        <p className="mb-6">Dive into the Bachelor&amp;s Program in Business Analytics at Rishihood University, co-created with KPMG in India, designed to offer a blend of academic excellence and real-world expertise. Heres why our program stands out</p>
 
                         <div className="shadow-lg p-5 rounded-lg mb-4">
                             <div className="flex mb-2 md:flex-row flex-col">
                                 <div className="pr-3 lg:border-r lg:w-2/4 w-full">
-                                    <h3 className="font-garamond text-[22px] font-bold mb-3 lg:mb-0">
+                                    <h3 className="font-garamond text-[22px] font-extrabold mb-3 lg:mb-0">
                                         <FontAwesomeIcon icon={faCircleCheck}  className="mr-2 text-darkBlue w-4"/>
                                         International Exposure
                                     </h3>
@@ -44,7 +44,7 @@ const Program = () => {
                         <div className="shadow-lg p-5 rounded-lg mb-4">
                             <div className="flex mb-2 md:flex-row flex-col">
                                 <div className="pr-4 lg:border-r lg:w-2/4 w-full">
-                                    <h3 className="font-garamond text-[22px] font-bold mb-3 lg:mb-0">
+                                    <h3 className="font-garamond text-[22px] font-extrabold mb-3 lg:mb-0">
                                         <FontAwesomeIcon icon={faCircleCheck} className="mr-2 text-[#DB541B] w-4"/>
                                         Expert-Led Learning
                                     </h3>
@@ -66,13 +66,13 @@ const Program = () => {
                     <div className="lg:pr-9 pr-0">
                         <div className="shadow-lg p-5 rounded-lg mb-4">
                             <div className="flex mb-2 md:flex-row flex-col">
-                                <div className="lg:pr-5 pr-0 lg:border-r">
-                                    <h3 className="font-garamond lg:text-[24px] text-[22px] font-bold">
+                                <div className="lg:pr-5 pr-0 lg:border-r md:w-3/4">
+                                    <h3 className="font-garamond lg:text-[24px] text-[22px] font-extrabold">
                                         <FontAwesomeIcon icon={faCircleCheck} className="mr-2 text-darkBlue w-4"/>
                                         KPMG Experts
                                     </h3>
                                 </div>
-                                <div className="lg:pl-5 grid lg:grid-cols-4 grid-cols-2 items-center l]md:w-2/4 w-full gap-x-2">
+                                <div className="lg:pl-5 grid lg:grid-cols-4 grid-cols-2 items-center l]lg:w-2/4 w-full gap-x-2">
                                     <img src={kpmg} alt="kpmg" />
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ const Program = () => {
                         <div className="shadow-lg p-5 rounded-lg mb-4">
                             <div className="flex lg:items-center items-start md:flex-row flex-col mb-2">
                                 <div className="lg:pr-5 lg:border-r">
-                                    <h3 className="font-garamond lg:text-[24px] text-[22px] font-bold md:mb-0 mb-3">
+                                    <h3 className="font-garamond lg:text-[24px] text-[22px] font-extrabold md:mb-0 mb-3">
                                         <FontAwesomeIcon icon={faCircleCheck} className="mr-2 text-[#DB541B] w-4"/>
                                         Capstone Projects
                                     </h3>
@@ -101,8 +101,8 @@ const Program = () => {
                         <div className="shadow-lg p-5 rounded-lg mb-4">
                             <div>
                                 <div>
-                                    <h3 className="font-garamond lg:text-[24px] text-[22px] font-bold mb-3">
-                                        <FontAwesomeIcon icon={faCircleCheck} className="mr-2 text-[#DB541B] w-4"/>
+                                    <h3 className="font-garamond lg:text-[24px] text-[22px] font-extrabold mb-3">
+                                        <FontAwesomeIcon icon={faCircleCheck} className="mr-2 text-darkBlue w-4"/>
                                         One-On-One Mentorship
                                     </h3>
                                 </div>
@@ -114,7 +114,7 @@ const Program = () => {
                         <div className="shadow-lg p-5 rounded-lg mb-4">
                             <div>
                                 <div>
-                                    <h3 className="font-garamond lg:text-[24px] text-[22px] font-bold mb-3 lg:mb-0">
+                                    <h3 className="font-garamond lg:text-[24px] text-[22px] font-extrabold mb-3 lg:mb-0">
                                         <FontAwesomeIcon icon={faCircleCheck} className="mr-2 text-[#DB541B] w-4"/>
                                         Industry internships with our partner
                                     </h3>
@@ -127,8 +127,8 @@ const Program = () => {
                         <div className="shadow-lg p-5 rounded-lg mb-4">
                             <div>
                                 <div>
-                                    <h3 className="font-garamond lg:text-[24px] text-[22px] font-bold mb-3 lg:mb-0">
-                                        <FontAwesomeIcon icon={faCircleCheck}  className="mr-2 text-[#DB541B] w-4"/>
+                                    <h3 className="font-garamond lg:text-[24px] text-[22px] font-extrabold mb-3 lg:mb-0">
+                                        <FontAwesomeIcon icon={faCircleCheck}  className="mr-2 text-darkBlue w-4"/>
                                         Tailored Research
                                     </h3>
                                 </div>

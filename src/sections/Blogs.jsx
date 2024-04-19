@@ -49,12 +49,12 @@ const Blogs = () => {
     return (
         <section className="lg:py-[70px] py-[50px]">
             <div className="container mx-auto lg:px-10 px-3">
-                <h2 className="lg:text-[30px] text-[22px] text-center font-garamond font-bold mb-2"><span className="text-darkBlue">Blogs</span> for Building Your <span className="text-darkBlue">Path</span> to a <span className="text-darkBlue">Successful Career</span></h2>
+                <h2 className="lg:text-[38px] text-[22px] text-center font-garamond font-bold mb-2"><span className="text-darkBlue">Blogs</span> for Building Your <span className="text-darkBlue">Path</span> to a <span className="text-darkBlue">Successful Career</span></h2>
 
-                <p className="mx-auto max-w-[950px] text-center text-[14px] leading-[25px] mb-10">Explore our collection of insightful blogs packed with tips, advice, and guidance to help you navigate your journey towards a successful and fulfilling career.</p>
+                <p className="mx-auto max-w-[900px] text-center text-[14px] leading-[25px] mb-10">Explore our collection of insightful blogs packed with tips, advice, and guidance to help you navigate your journey towards a successful and fulfilling career.</p>
 
 
-                <div className="grid lg:grid-cols-3 grid-cols-1 gap-6">
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
                     {
                         blogsText.map((singleBlog, index)=>(
                             <div className="p-4 rounded-3xl shadow-2xl" key={index}>
@@ -98,12 +98,13 @@ const Blogs = () => {
                     }
                 </div>
 
-                <div className="text-center flex justify-center lg:flex-row flex-col gap-3 mt-[65px]">
-                    <a href="#" className="bg-red text-white lg:px-5 px-3 lg:py-4 py-2 flex items-center rounded-[30px] lg:text-[16px] text-[14px] justify-center">
+                <div className="text-center flex justify-center md:flex-row flex-col gap-3 mt-[65px]">
+                    <a href="#" className="bg-red text-white md:px-5 px-3 md:py-4 py-2 flex items-center rounded-[30px] md:text-[16px] text-[14px] justify-center">
                         Explore All Blogs
                         <GoArrowUpRight className="ml-1"/>
                     </a>
-                    <a href="#" className="lg:px-5 px-3 lg:py-4 py-2 flex items-center rounded-[30px] border lg:text-[16px] text-[14px] justify-center">
+
+                    <a href="#" className="md:px-5 px-3 md:py-4 py-2 flex items-center rounded-[30px] border md:text-[16px] text-[14px] justify-center">
                         Register Now At Rishihood
                         <GoArrowUpRight />
                     </a>

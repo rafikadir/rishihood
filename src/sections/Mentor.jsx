@@ -12,7 +12,7 @@ import mentor5 from "../assets/mentors/5.png";
 const Mentor = () => {
 
     return (
-        <section className="lg:py-[100px] py-[50px]">
+        <section className="lg:py-[100px] py-[50px]" id="mentors">
            <div className="container mx-auto lg:px-10 px-3">
                 <h2 className="lg:text-[40px] text-[22px] font-garamond font-bold text-center mb-3"><span className='text-darkBlue'>Mentors At Rishihood:</span> Illuminating Paths, Igniting Potential</h2>
                 <p className="max-w-[650px] lg:text-[16px] text-[14px] m-auto text-center mb-8">At Rishihood University, our mentors represent the pinnacle of excellence, hailing from top industries and renowned institutions worldwide.</p>

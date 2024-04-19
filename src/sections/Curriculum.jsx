@@ -8,7 +8,7 @@ import { FaSortDown, FaCheckCircle } from "react-icons/fa";
 
 const Curriculum = () => {
     return (
-        <section className="lg:pt-[100px] pt-[50px]">
+        <section className="lg:pt-[100px] pt-[50px]" id='curriculum'>
             <div className="container mx-auto lg:px-10 px-3">
                 <h2 className="lg:text-[40px] text-[24px] font-garamond font-bold mb-3">Our <span className='text-darkBlue'>Curriculum</span>, Your Path to <span className='text-darkBlue'>Success!!</span></h2>
 

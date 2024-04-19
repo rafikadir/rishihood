@@ -62,19 +62,19 @@ const Navbar = () => {
             </button>
           </div>
           <Popover.Group className="hidden lg:flex lg:gap-x-12">
-            <a href="#" className="text-sm font-medium leading-6 text-gray-900">
+            <a href="#home" className="text-sm font-medium leading-6 text-gray-900">
               Home
             </a>
-            <a href="#" className="text-sm font-medium leading-6 text-gray-900">
+            <a href="#feature" className="text-sm font-medium leading-6 text-gray-900">
               About
             </a>
-            <a href="#" className="text-sm font-medium leading-6 text-gray-900">
+            <a href="#curriculum" className="text-sm font-medium leading-6 text-gray-900">
               Curriculum
             </a>
-            <a href="#" className="text-sm font-medium leading-6 text-gray-900">
+            <a href="#faculty" className="text-sm font-medium leading-6 text-gray-900">
               Faculty
             </a>
-            <a href="#" className="text-sm font-medium leading-6 text-gray-900">
+            <a href="#feedback" className="text-sm font-medium leading-6 text-gray-900">
               Testimonial
             </a>
             <Popover className="relative">

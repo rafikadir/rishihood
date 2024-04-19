@@ -7,12 +7,12 @@ import BannerForm2 from '../components/BannerForm2';
 
 const Banner = () => {
     return (
-        <section className="bg-cover" style={{backgroundImage: `url(${banner})`}}>
+        <section className="bg-cover" style={{backgroundImage: `url(${banner})`}} id="home">
             <div className='container mx-auto md:py-[100px] py-[50px] lg:px-8 px-3'>
                 <div className='grid md:grid-cols-5 grid-cols-2 items-center'>
-                    <div className='col-span-3'>
+                    <div className='col-span-3 mb-5 md:mb-0'>
                         <h2 className="font-garamond lg:text-[44px] text-white lg:leading-[50px] mb-8 text-[24px] leading-[35px]">
-                            Bachelor’s Program in Business <br/> Analytics in Association <br/> with KPMG in India
+                            Bachelor&amp;s Program in Business <br/> Analytics in Association <br/> with KPMG in India
                         </h2>
 
                         <ul className='text-white mb-8'>
@@ -34,8 +34,13 @@ const Banner = () => {
                         </ul>
 
                         <div className="flex gap-2 mb-8">
-                            <Button text="Register Now"/>
-                            <Button text="Explore the Course" transparent={true}/>
+                            <Button text="Register Now" link="#"/>
+                            <Button 
+                                link="#curriculum"
+                                text="Explore the Course" 
+                                transparent={true}
+                                whiteBorder={true}
+                            />
                         </div>
 
                         <p className='mb-4 text-white text-[14px]'>UGC-approved program at Rishihood University in collaboration with KPMG</p>

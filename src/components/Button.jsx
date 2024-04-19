@@ -1,7 +1,7 @@
 
-const Button = ({text,transparent, style2, center}) => {
+const Button = ({text,transparent, whiteBorder, center, link, blackBorder}) => {
     return (
-        <a href="#" className={` ${transparent && style2 ? "bg-transparent border border-2 !text-black border-black" : "bg-[#DB541B]"} ${center ? "justify-center" : ""} lg:text-[15px] text-[10px] font-semibold lg:leading-6 text-white flex items-center py-3 px-5 rounded-[50px]`}>
+        <a href={`${link}`} className={` ${transparent ? "bg-transparent border" : "bg-[#DB541B]"} ${center ? "justify-center" : ""} md:text-[14px] text-[10px] font-semibold lg:leading-6 text-white flex items-center py-3 px-4 rounded-[50px] ${whiteBorder ? "border-white text-white" : ""} ${blackBorder ? "text-[#3B3A3A] border-[#3B3A3A]" : ""}`}>
             {text}
 
             {
@@ -9,7 +9,6 @@ const Button = ({text,transparent, style2, center}) => {
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-4">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
                 </svg>
-
                 :
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-4 ml-1">
                     <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />

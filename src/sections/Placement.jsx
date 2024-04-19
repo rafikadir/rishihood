@@ -12,13 +12,21 @@ const Placement = () => {
                     <div className="lg:px-10">
                         <h2 className="lg:text-[40px] text-[24px] font-garamond font-bold lg:mb-6 mb-3">100% Placement Support</h2>
 
-                        <p>Unlock your analytics career with our dedicated Career Services team,  committed to ensuring every student embarks on a successful professional  journey post-graduation.</p>
+                        <p className="mb-1">Unlock your analytics career with our dedicated Career Services team,  committed to ensuring every student embarks on a successful professional  journey post-graduation.</p>
 
                         <p className="mb-5">Our holistic approach to career development  encompasses a range of targeted activities designed to build your skill set, enhance your marketability, and prepare you for the dynamic world of business analytics.</p>
 
                         <div className="flex gap-2">
-                            <Button text="Know Our Curriculum" />
-                            <Button text="Download Brochure" transparent={true} style2={true}/>
+                            <Button 
+                                text="Know Our Curriculum"
+                                link="#curriculum"
+                            />
+
+                            <Button text="Download Brochure" 
+                                transparent={true} 
+                                blackBorder={true}
+                                link="#"
+                            />
                         </div>
                     </div>
                 </div>

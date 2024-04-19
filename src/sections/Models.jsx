@@ -9,7 +9,7 @@ const Models = () => {
     return (
         <section className="py-[50px] shadow-xl">
             <div className="container mx-auto lg:px-10 px-3">
-                <h2 className="lg:text-[35px] text-[24px] font-garamond mb-8"><span        className="text-darkBlue">KPMG</span> Pedagogy is based on <span className="text-darkBlue">Contemporary Models</span> and <span className="text-darkBlue">Methodologies</span> such as:
+                <h2 className="lg:text-[30px] text-[24px] font-garamond font-bold mb-8"><span className="text-darkBlue">KPMG</span> Pedagogy is based on <span className="text-darkBlue">Contemporary Models</span> and <span className="text-darkBlue">Methodologies</span> such as:
                 </h2>
             
                 <div className="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-1 gap-5">

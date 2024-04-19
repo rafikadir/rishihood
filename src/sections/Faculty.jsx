@@ -63,7 +63,7 @@ const Faculty = () => {
     ]
 
     return (
-        <section className="pb-[70px]">
+        <section className="pb-[70px]" id="faculty">
             <div className="container mx-auto lg:px-10 px-3">
                 <h2 className="lg:text-[40px] text-[20px] font-garamond font-bold text-center mb-3">Unlocking Potential: <span className="text-darkBlue">Rishihood</span> & <span className="text-darkBlue">KPMG</span> Faculty Shaping Futures</h2>
 
@@ -80,7 +80,7 @@ const Faculty = () => {
                                     <p className="text-white font-garamond font-bold">{singleFaculty.faculty}</p>
                                 </div>
                             </div>
-                            <h3 className="font-garamond text-xl font-bold mt-5 mb-2">{singleFaculty.name}</h3>
+                            <h3 className="font-garamond text-[18px] font-bold mt-5 mb-2">{singleFaculty.name}</h3>
                             <p className="lg:text-[16px] text-[14px] mb-5 text-[#6D737A] group-hover:text-white">{singleFaculty.desc}</p>
                         </div>))
                     }

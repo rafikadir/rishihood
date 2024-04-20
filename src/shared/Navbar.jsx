@@ -46,9 +46,9 @@ const Navbar = () => {
       <div className='container mx-auto lg:px-8 px-3'>
         <nav className="mx-auto flex items-center justify-between py-4 lg:px-2" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img className="h-12 w-auto" src={logo} alt="logo" />
+              <img className="h-12 w-auto" src={logo} alt="logonhjip99p" />
             </a>
           </div>
           <div className="flex lg:hidden">

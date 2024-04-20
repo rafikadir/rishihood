@@ -1,7 +1,4 @@
-import admissionImg from "../assets/admission.png";
 import Button from "../components/Button";
-import logo from "../assets/logo2.png";
-import icon from "../assets/youtube.png";
 import YouTube from 'react-youtube';
 
 const Admission = () => {

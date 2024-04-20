@@ -37,7 +37,7 @@ const Footer = () => {
                                 <a href="#" className="text-white lg:text-[15px] text-[14px]">About KPMG</a>
                             </li>
                             <li className="lg:mb-3 mb-1">
-                                <a href="#" className="text-white lg:text-[15px] text-[14px]">Highlights</a>
+                                <a href="#program" className="text-white lg:text-[15px] text-[14px]">Highlights</a>
                             </li>
                             <li className="lg:mb-3 mb-1">
                                 <a href="#curriculum" className="text-white lg:text-[15px] text-[14px]">Curriculum</a>

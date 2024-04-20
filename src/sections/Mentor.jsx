@@ -30,8 +30,8 @@ const Mentor = () => {
                       }}
                     navigation={true}
                     loop={true}
-                    autoplay={{ delay:0, disableOnInteraction: true }}
-                    speed={1500}
+                    autoplay={{ delay:1000, disableOnInteraction: true }}
+                    speed={2500}
                     >
                     <SwiperSlide>
                         <div className='relative'>

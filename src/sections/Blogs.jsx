@@ -19,7 +19,8 @@ const Blogs = () => {
             "title" : "Exploring Unique Career Paths After 12th Grade in India",
             "desc" : "Explore unconventional career paths beyond traditional choices like engineering and medicine.",
             "tag1" : "Education",
-            "tag2" : "Career Guideline"
+            "tag2" : "Career Guideline",
+            "link" : "https://edept.co/exploring-unique-career-paths-after-12th-grade-in-india/"
         },
         {
             "img" : blog2,
@@ -31,7 +32,8 @@ const Blogs = () => {
             "desc" : "Explore how tech passion leads to a successful future in our blog.",
             "tag1" : "Business Analytics",
             "tag2" : "Career",
-            "tag3" : "Technology"
+            "tag3" : "Technology",
+            "link" : "https://edept.co/leveraging-your-tech-skills-building-a-rewarding-career-after-12th-grade/"
         },
         {
             "img" : blog3,
@@ -42,7 +44,8 @@ const Blogs = () => {
             "title" : "Top 10 In-Demand Careers for Indian Students After 12th Grade",
             "desc" : "Explore the top 10 in-demand career paths for Indian students post-12th grade.",
             "tag1" : "Education",
-            "tag2" : "Career Guideline"
+            "tag2" : "Career Guideline",
+            "link" : "https://edept.co/top-10-in-demand-careers-for-indian-students-after-12th-grade/"
         }
     ];
 
@@ -77,7 +80,7 @@ const Blogs = () => {
                                 </div>
     
                                 <h2 className="lg:text-[18px] text-[14px] flex font-bold underline mb-3">
-                                    <a href="#">
+                                    <a href={singleBlog.link} target="_blank">
                                         {singleBlog.title}
                                     </a>
         
@@ -99,7 +102,7 @@ const Blogs = () => {
                 </div>
 
                 <div className="text-center flex justify-center md:flex-row flex-col gap-3 mt-[65px]">
-                    <a href="#" className="bg-red text-white md:px-5 px-3 md:py-4 py-2 flex items-center rounded-[30px] md:text-[16px] text-[14px] justify-center">
+                    <a href="https://edept.co/blog/" className="bg-red text-white md:px-5 px-3 md:py-4 py-2 flex items-center rounded-[30px] md:text-[16px] text-[14px] justify-center" target="_blank">
                         Explore All Blogs
                         <GoArrowUpRight className="ml-1"/>
                     </a>

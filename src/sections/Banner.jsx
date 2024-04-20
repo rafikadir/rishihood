@@ -12,7 +12,7 @@ const Banner = () => {
                 <div className='grid md:grid-cols-5 grid-cols-2 items-center'>
                     <div className='col-span-3 mb-5 md:mb-0'>
                         <h2 className="font-garamond lg:text-[44px] text-white lg:leading-[50px] mb-8 text-[24px] leading-[35px]">
-                            Bachelor&amp;s Program in Business <br/> Analytics in Association <br/> with KPMG in India
+                            Bachelor&apos;s Program in Business <br/> Analytics in Association <br/> with KPMG in India
                         </h2>
 
                         <ul className='text-white mb-8'>
@@ -43,7 +43,9 @@ const Banner = () => {
                             />
                         </div>
 
-                        <p className='mb-4 text-white text-[14px]'>UGC-approved program at Rishihood University in collaboration with KPMG</p>
+                        <p className='mb-4 text-white text-[14px]'>
+                            UGC-approved program at Rishihood University in collaboration with KPMG In India
+                        </p>
                     
                         <img src={bannerLogo} className='md:max-w-[380px] max-w-full' alt="banner logo" />
                     </div>

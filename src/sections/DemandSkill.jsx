@@ -35,13 +35,13 @@ const DemandSkill = () => {
 
                             <ul>
                                 <li className="flex justify-between items-center bg-[#F6F8FB] p-5 rounded-md mb-3">
-                                    <a href="#" className="lg:text-[17px] text-[12px] text-black font-medium">
+                                    <a href="#program" className="lg:text-[17px] text-[12px] text-black font-medium">
                                         Business Analytics Program Partnered with KPMG
                                     </a>
                                     <FontAwesomeIcon icon={faArrowRightLong} />
                                 </li>
                                 <li className="flex justify-between items-center bg-[#F6F8FB] p-5 rounded-md">
-                                    <a href="#" className="lg:text-[17px] text-[12px] font-medium">
+                                    <a href="#placement" className="lg:text-[17px] text-[12px] font-medium">
                                         Discover Companies Recruiting in Analytics!
                                     </a>
                                     <FontAwesomeIcon icon={faArrowRightLong} />

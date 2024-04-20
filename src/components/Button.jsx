@@ -1,7 +1,7 @@
 
 const Button = ({text,transparent, whiteBorder, center, link, blackBorder}) => {
     return (
-        <a href={`${link}`} className={` ${transparent ? "bg-transparent border" : "bg-[#DB541B]"} ${center ? "justify-center" : ""} md:text-[14px] text-[10px] font-semibold lg:leading-6 text-white flex items-center py-3 px-4 rounded-[50px] ${whiteBorder ? "border-white text-white" : ""} ${blackBorder ? "text-[#3B3A3A] border-[#3B3A3A]" : ""}`}>
+        <a href={`${link}`} className={` ${transparent ? "bg-transparent border" : "bg-[#DB541B]"} ${center ? "justify-center" : ""} md:text-[14px] text-[10px] font-semibold lg:leading-6 text-white flex items-center py-3 px-4 rounded-[50px] ${whiteBorder ? "border-white text-white" : ""} ${blackBorder ? "!text-[#3B3A3A] border-[#3B3A3A]" : ""}`}>
             {text}
 
             {

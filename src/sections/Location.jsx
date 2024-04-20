@@ -10,7 +10,7 @@ const Location = () => {
             <div className="container mx-auto lg:px-10 px-3">
                 <h2 className="lg:text-[30px] text-[22px] text-center font-garamond font-bold mb-2">Expand Your Horizons, <span className="text-darkBlue">Learn Globally</span>: Rishihood University 
                 Leads the Way</h2>
-                <p className="mx-auto max-w-[950px] text-center text-[14px] leading-[25px] mb-10">Embark on a transformative journey with Rishihood University&amp;s global study abroad program. Experience immersive learning opportunities at renowned universities worldwide, expanding your horizons and gaining invaluable international perspectives.</p>
+                <p className="mx-auto max-w-[950px] text-center text-[14px] leading-[25px] mb-10">Embark on a transformative journey with Rishihood University&apos;s global study abroad program. Experience immersive learning opportunities at renowned universities worldwide, expanding your horizons and gaining invaluable international perspectives.</p>
             
                 <div className="grid md:grid-cols-3 grid-cols-1 gap-1 mb-1">
                     <div className="relative col-span-1 bg-cover h-[300px]" style={{backgroundImage: `url(${location1})`}}>

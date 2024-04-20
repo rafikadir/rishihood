@@ -141,7 +141,7 @@ const Curriculum = () => {
                                     </Tab>
 
                                     <Tab>
-                                        <div className="pl-10 py-[16px] border-b border-[#7A7A7A]">
+                                        <div className="pl-10 py-[16px] lg:border-b border-none border-[#7A7A7A]">
                                             <p className='text-white text-inter text-[18px] mb-1 font-medium'>Semester 8</p>
 
                                             <ul className='flex gap-3'>

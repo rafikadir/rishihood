@@ -14,7 +14,7 @@ import {faCircleCheck} from "@fortawesome/free-solid-svg-icons";
 
 const Program = () => {
     return (
-        <section className="py-[70px]">
+        <section className="py-[70px]" id="program">
             <div className="container mx-auto lg:px-10 px-3">
                 <div className="grid md:grid-cols-2 md:gap-3 lg:gap-0 grid-cols-1">
                     <div>
@@ -23,17 +23,17 @@ const Program = () => {
                     <div className="lg:pl-9">
                         <h2 className="font-garamond lg:text-[40px] text-[24px] font-bold lg:mb-6 mb-2">Highlights Of The Program:</h2>
 
-                        <p className="mb-6">Dive into the Bachelor&amp;s Program in Business Analytics at Rishihood University, co-created with KPMG in India, designed to offer a blend of academic excellence and real-world expertise. Heres why our program stands out</p>
+                        <p className="mb-6">Dive into the Bachelor&apos;s Program in Business Analytics at Rishihood University, co-created with KPMG in India, designed to offer a blend of academic excellence and real-world expertise. Heres why our program stands out</p>
 
                         <div className="shadow-lg p-5 rounded-lg mb-4">
                             <div className="flex mb-2 md:flex-row flex-col">
-                                <div className="pr-3 lg:border-r lg:w-2/4 w-full">
+                                <div className="lg:pr-5 pr-0 lg:border-r">
                                     <h3 className="font-garamond text-[22px] font-extrabold mb-3 lg:mb-0">
                                         <FontAwesomeIcon icon={faCircleCheck}  className="mr-2 text-darkBlue w-4"/>
                                         International Exposure
                                     </h3>
                                 </div>
-                                <div className="lg:pl-4 grid lg:w-2/4 w-full mb-3 lg:mb-0">
+                                <div className="lg:pl-5 grid mb-3 lg:mb-0 lg:max-w-[120px] max-w-[90px]">
                                     <img src={unitar} alt="unitar" />
                                 </div>
                             </div>
@@ -43,17 +43,18 @@ const Program = () => {
 
                         <div className="shadow-lg p-5 rounded-lg mb-4">
                             <div className="flex mb-2 md:flex-row flex-col">
-                                <div className="pr-4 lg:border-r lg:w-2/4 w-full">
+                                <div className="lg:pr-5 pr-0 lg:border-r">
                                     <h3 className="font-garamond text-[22px] font-extrabold mb-3 lg:mb-0">
                                         <FontAwesomeIcon icon={faCircleCheck} className="mr-2 text-[#DB541B] w-4"/>
                                         Expert-Led Learning
                                     </h3>
                                 </div>
-                                <div className="lg:pl-5 grid lg:grid-cols-4 grid-cols-2 items-center lg:w-2/4 w-full gap-x-2">
-                                    <img src={iima} alt="iima" />
-                                    <img src={icon1} alt="icon" />
-                                    <img src={amazon} alt="amazon" />
-                                    <img src={meta} alt="meta" />
+                                
+                                <div className="lg:pl-5 flex items-center">
+                                    <img src={iima} alt="iima" className="lg:max-w-[120px] max-w-[60px] mr-4"/>
+                                    <img src={icon1} alt="icon" className="lg:max-w-[120px] max-w-[40px] mr-5"/>
+                                    <img src={amazon} alt="amazon" className="lg:max-w-[100px] max-w-[60px] mr-4"/>
+                                    <img src={meta} alt="meta" className="lg:max-w-[90px] max-w-[60px]"/>
                                 </div>
                             </div>
 
@@ -66,14 +67,14 @@ const Program = () => {
                     <div className="lg:pr-9 pr-0">
                         <div className="shadow-lg p-5 rounded-lg mb-4">
                             <div className="flex mb-2 md:flex-row flex-col">
-                                <div className="lg:pr-5 pr-0 lg:border-r md:w-3/4">
+                                <div className="lg:pr-5 pr-0 lg:border-r">
                                     <h3 className="font-garamond lg:text-[24px] text-[22px] font-extrabold">
                                         <FontAwesomeIcon icon={faCircleCheck} className="mr-2 text-darkBlue w-4"/>
                                         KPMG Experts
                                     </h3>
                                 </div>
-                                <div className="lg:pl-5 grid lg:grid-cols-4 grid-cols-2 items-center l]lg:w-2/4 w-full gap-x-2">
-                                    <img src={kpmg} alt="kpmg" />
+                                <div className="lg:pl-5 flex items-center">
+                                    <img src={kpmg} alt="kpmg" className="lg:max-w-[120px] max-w-[80px]"/>
                                 </div>
                             </div>
 
@@ -83,15 +84,15 @@ const Program = () => {
                         <div className="shadow-lg p-5 rounded-lg mb-4">
                             <div className="flex lg:items-center items-start md:flex-row flex-col mb-2">
                                 <div className="lg:pr-5 lg:border-r">
-                                    <h3 className="font-garamond lg:text-[24px] text-[22px] font-extrabold md:mb-0 mb-3">
+                                    <h3 className="font-garamond lg:text-[24px] text-[22px] font-extrabold md:mb-0 mb-1">
                                         <FontAwesomeIcon icon={faCircleCheck} className="mr-2 text-[#DB541B] w-4"/>
                                         Capstone Projects
                                     </h3>
                                 </div>
-                                <div className="lg:pl-5 pl-0 grid lg:grid-cols-4 grid-cols-2 items-center lg:w-2/4 w-full gap-x-2">
-                                    <img src={netflix} alt="netflix" />
-                                    <img src={olympic} alt="olympic" />
-                                    <img src={flipcart} alt="flipcart" />
+                                <div className="lg:pl-5 pl-0 flex items-center">
+                                    <img src={netflix} alt="netflix" className="lg:max-w-[80px] max-w-[60px] mr-4"/>
+                                    <img src={olympic} alt="olympic" className="lg:max-w-[80px] max-w-[60px] mr-4"/>
+                                    <img src={flipcart} alt="flipcart" className="lg:max-w-[80px] max-w-[60px]"/>
                                 </div>
                             </div>
 
@@ -101,7 +102,7 @@ const Program = () => {
                         <div className="shadow-lg p-5 rounded-lg mb-4">
                             <div>
                                 <div>
-                                    <h3 className="font-garamond lg:text-[24px] text-[22px] font-extrabold mb-3">
+                                    <h3 className="font-garamond lg:text-[24px] text-[20px] font-extrabold mb-3">
                                         <FontAwesomeIcon icon={faCircleCheck} className="mr-2 text-darkBlue w-4"/>
                                         One-On-One Mentorship
                                     </h3>

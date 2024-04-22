@@ -25,7 +25,6 @@ const Footer = () => {
                     </div>
 
                     <div className="lg:col-auto lg:mb-0 mb-5">
-                        <h3 className="text-white font-garamond text-[22px] font-bold lg:mb-6 mb-2">Company</h3>
                         <ul>
                             <li className="lg:mb-3 mb-1">
                                 <a href="#home" className="text-white lg:text-[15px] text-[14px]">Home</a>
@@ -34,13 +33,19 @@ const Footer = () => {
                                 <a href="#feature" className="text-white lg:text-[15px] text-[14px]">About Rishihood</a>
                             </li>
                             <li className="lg:mb-3 mb-1">
-                                <a href="#" className="text-white lg:text-[15px] text-[14px]">About KPMG</a>
+                                <a href="#models" className="text-white lg:text-[15px] text-[14px]">About KPMG</a>
                             </li>
                             <li className="lg:mb-3 mb-1">
                                 <a href="#program" className="text-white lg:text-[15px] text-[14px]">Highlights</a>
                             </li>
                             <li className="lg:mb-3 mb-1">
                                 <a href="#curriculum" className="text-white lg:text-[15px] text-[14px]">Curriculum</a>
+                            </li>
+                            <li className="lg:mb-3 mb-1">
+                                <a href="#faculty" className="text-white lg:text-[15px] text-[14px]">Faculty</a>
+                            </li>
+                            <li className="lg:mb-3 mb-1">
+                                <a href="#network" className="text-white lg:text-[15px] text-[14px]">Network</a>
                             </li>
                         </ul>
                     </div>

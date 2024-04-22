@@ -9,11 +9,11 @@ import logo from '../assets/logo.png'
 import Button from '../components/Button';
 
 const products = [
-  { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#'},
-  { name: 'Engagement', description: 'Speak directly to your customers', href: '#'},
-  { name: 'Security', description: 'Your customers’ data will be safe and secure', href: '#'},
-  { name: 'Integrations', description: 'Connect with third-party tools', href: '#'},
-  { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#'},
+  { name: 'KPMG Pedagogy', description: 'Get a better understanding of your traffic', href: '#models'},
+  { name: 'Program Highlights', description: 'Speak directly to your customers', href: '#program'},
+  { name: 'Mentors', description: 'Your customers’ data will be safe and secure', href: '#mentors'},
+  { name: 'Location', description: 'Connect with third-party tools', href: '#location'},
+  { name: 'Network', description: 'Build strategic funnels that will convert', href: '#network'},
 ]
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
@@ -143,11 +143,42 @@ const Navbar = () => {
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
+                  <a
+                    href="#"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  >
+                    Home
+                  </a>
+                  <a
+                    href="#"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  >
+                    About
+                  </a>
+                  <a
+                    href="#"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  >
+                    Curriculum
+                  </a>
+                  <a
+                    href="#"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  >
+                    Faculty
+                  </a>
+                  <a
+                    href="#"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  >
+                    Testimonial
+                  </a>
+
                   <Disclosure as="div" className="-mx-3">
                     {({ open }) => (
                       <>
                         <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                          Product
+                          More
                           <ChevronDownIcon
                             className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
                             aria-hidden="true"
@@ -168,24 +199,6 @@ const Navbar = () => {
                       </>
                     )}
                   </Disclosure>
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
-                    Features
-                  </a>
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
-                    Marketplace
-                  </a>
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
-                    Company
-                  </a>
                 </div>
               </div>
             </div>

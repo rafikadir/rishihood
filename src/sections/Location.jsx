@@ -6,7 +6,7 @@ import { LuMapPin } from "react-icons/lu";
 
 const Location = () => {
     return (
-        <section className="lg:py-[70px] py-[40px]">
+        <section className="lg:py-[70px] py-[40px]" id="location">
             <div className="container mx-auto lg:px-10 px-3">
                 <h2 className="lg:text-[30px] text-[22px] text-center font-garamond font-bold mb-2">Expand Your Horizons, <span className="text-darkBlue">Learn Globally</span>: Rishihood University 
                 Leads the Way</h2>

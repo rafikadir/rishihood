@@ -7,7 +7,7 @@ import icon_computer from "../assets/icons/computer.png";
 
 const Models = () => {
     return (
-        <section className="py-[50px] shadow-xl">
+        <section className="py-[50px] shadow-xl" id="models">
             <div className="container mx-auto lg:px-10 px-3">
                 <h2 className="lg:text-[30px] text-[24px] font-garamond font-bold mb-8"><span className="text-darkBlue">KPMG</span> Pedagogy is based on <span className="text-darkBlue">Contemporary Models</span> and <span className="text-darkBlue">Methodologies</span> such as:
                 </h2>

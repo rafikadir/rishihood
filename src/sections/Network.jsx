@@ -57,7 +57,7 @@ import network56 from '../assets/network/56.png';
 
 const Network = () => {
     return (
-        <section className='lg:py-[70px] py-[50px] bg-[#F8F9FD]' id='partner'>
+        <section className='lg:py-[70px] py-[50px] bg-[#F8F9FD]' id='network'>
             <div className="container mx-auto">
                 <h2 className="lg:text-[30px] text-[22px] text-center font-garamond font-bold mb-2"><span className="text-darkBlue">Global Wisdom:</span> Transform Your Future with Our Premier <span className="text-darkBlue"> Mentor&apos;s 
                 Network</span></h2>

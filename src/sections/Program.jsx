@@ -42,7 +42,7 @@ const Program = () => {
                         </div>
 
                         <div className="shadow-lg p-5 rounded-lg mb-4">
-                            <div className="flex mb-2 md:flex-row flex-col">
+                            <div className="flex lg:items-center items-start md:flex-row flex-col mb-2">
                                 <div className="lg:pr-5 pr-0 lg:border-r">
                                     <h3 className="font-garamond text-[22px] font-extrabold mb-3 lg:mb-0">
                                         <FontAwesomeIcon icon={faCircleCheck} className="mr-2 text-[#DB541B] w-4"/>
@@ -51,10 +51,10 @@ const Program = () => {
                                 </div>
                                 
                                 <div className="lg:pl-5 flex items-center">
-                                    <img src={iima} alt="iima" className="lg:max-w-[120px] max-w-[60px] mr-4"/>
-                                    <img src={icon1} alt="icon" className="lg:max-w-[120px] max-w-[40px] mr-5"/>
-                                    <img src={amazon} alt="amazon" className="lg:max-w-[100px] max-w-[60px] mr-4"/>
-                                    <img src={meta} alt="meta" className="lg:max-w-[90px] max-w-[60px]"/>
+                                    <img src={iima} alt="iima" className="md:max-w-[65px] max-w-[60px] mr-4"/>
+                                    <img src={icon1} alt="icon" className="md:max-w-[120px] max-w-[40px] mr-5"/>
+                                    <img src={amazon} alt="amazon" className="md:max-w-[80px] max-w-[60px] mr-4"/>
+                                    <img src={meta} alt="meta" className="md:max-w-[90px] max-w-[60px]"/>
                                 </div>
                             </div>
 

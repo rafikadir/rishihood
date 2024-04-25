@@ -15,7 +15,7 @@ const Curriculum = () => {
                 <p className="max-w-[950px] text-[14px] lg:text-[16px] mb-8">Embark on an enriching educational journey at Rishihood University, where our innovative curriculum, developed in collaboration with industry leader KPMG, prepares you for success in the dynamic field of Business Analytics.</p>
             </div>
 
-            <div className="mt-6">
+            <div className="mt-6 curriculum-section">
                 <Tabs>
                     <div className="grid lg:grid-cols-12 grid-cols-1">
                         <div className="col-span-3 h-[680px]">

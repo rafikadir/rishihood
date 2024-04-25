@@ -62,19 +62,33 @@ body {
 }
 
 /* Curriculum CSS */
-.react-tabs__tab {
+.curriculum-section .react-tabs__tab {
     bottom: inherit;
     width: 100%;
     padding: 0;
 }
-.react-tabs__tab.react-tabs__tab--selected {
+.curriculum-section .react-tabs__tab.react-tabs__tab--selected {
     background: #005498;
     border: inherit;
-    /* border-bottom: 1px solid #7A7A7A; */
     border-radius: 0;
 }
-.react-tabs__tab.react-tabs__tab--selected::after {
+.curriculum-section .react-tabs__tab.react-tabs__tab--selected::after {
     display: none;
+}
+
+.blogs-section .react-tabs__tab-list {
+    border: none;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.blogs-section .react-tabs__tab.react-tabs__tab--selected {
+    background: #005498;
+    border: inherit;
+    border-radius: 0;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
 }
 
 @keyframes scroll {

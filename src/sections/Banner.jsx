@@ -7,7 +7,7 @@ import BannerForm2 from '../components/BannerForm2';
 
 const Banner = () => {
     return (
-        <section className="bg-cover" style={{backgroundImage: `url(${banner})`}} id="home">
+        <section className="bg-cover object-cover" style={{backgroundImage: `url(${banner})`}} id="home">
             <div className='container mx-auto md:py-[100px] py-[50px] lg:px-8 px-3'>
                 <div className='grid md:grid-cols-5 grid-cols-2 items-center'>
                     <div className='col-span-3 mb-5 md:mb-0'>
